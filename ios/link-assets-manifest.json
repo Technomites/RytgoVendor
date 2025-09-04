@@ -1,0 +1,81 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "Assets/fonts/Inter-Black.ttf",
+      "sha1": "ff2d9fdf17ab9adfd7cd41a75ef0495f11d27b56"
+    },
+    {
+      "path": "Assets/fonts/Inter-Bold.ttf",
+      "sha1": "114827cbea95681eee9d877b0b1ab0515d5f3b69"
+    },
+    {
+      "path": "Assets/fonts/Inter-ExtraBold.ttf",
+      "sha1": "0a6cf7f44c9be40bd1179af91ed3589b534e2642"
+    },
+    {
+      "path": "Assets/fonts/Inter-ExtraLight.ttf",
+      "sha1": "9b79bf395137be66b2c17acec56c4915e10a12f1"
+    },
+    {
+      "path": "Assets/fonts/Inter-Light.ttf",
+      "sha1": "791a657bf537ff4272bae72f43c1c9981ab4d623"
+    },
+    {
+      "path": "Assets/fonts/Inter-Medium.ttf",
+      "sha1": "17ec5016a5f2b2ea4f27f7bce1df4192d3590161"
+    },
+    {
+      "path": "Assets/fonts/Inter-Regular.ttf",
+      "sha1": "077f819e60120b1ded3d5c5d8a23b8b53e12ec17"
+    },
+    {
+      "path": "Assets/fonts/Inter-SemiBold.ttf",
+      "sha1": "29d9db84af04e729a01e0bb076c0afdf723e8bc5"
+    },
+    {
+      "path": "Assets/fonts/Inter-Thin.ttf",
+      "sha1": "2534deaee8e837f29f2e6533f1792efe62fd27d6"
+    },
+    {
+      "path": "Assets/fonts/Satoshi-Black.otf",
+      "sha1": "d92baad4dab9ca55bc72f1a8a0a6de72829e709f"
+    },
+    {
+      "path": "Assets/fonts/Satoshi-BlackItalic.otf",
+      "sha1": "2fada5e2f31f7e2f252d458094603daca66f4a0a"
+    },
+    {
+      "path": "Assets/fonts/Satoshi-Bold.otf",
+      "sha1": "57a9e1c24984708865f7d0c31a03773912fb975f"
+    },
+    {
+      "path": "Assets/fonts/Satoshi-BoldItalic.otf",
+      "sha1": "c279f41805b46f030eb4a1d55ceaf7c4cacd1a39"
+    },
+    {
+      "path": "Assets/fonts/Satoshi-Italic.otf",
+      "sha1": "1ee38a9969b628781bc30ed690f6571aca189451"
+    },
+    {
+      "path": "Assets/fonts/Satoshi-Light.otf",
+      "sha1": "3b1b977f00db442bdf30f63603112e6e251b7dda"
+    },
+    {
+      "path": "Assets/fonts/Satoshi-LightItalic.otf",
+      "sha1": "782b6239e9a537ffcd574fb26b69201b67b96dc2"
+    },
+    {
+      "path": "Assets/fonts/Satoshi-Medium.otf",
+      "sha1": "704faccb5fff19f25c0b914d42d135ab75794a24"
+    },
+    {
+      "path": "Assets/fonts/Satoshi-MediumItalic.otf",
+      "sha1": "89936e7345cfa18dadc048e3a9266947c7f12839"
+    },
+    {
+      "path": "Assets/fonts/Satoshi-Regular.otf",
+      "sha1": "7dcb59994f2bee1a4ef1f6c079ba0e99b409878b"
+    }
+  ]
+}
