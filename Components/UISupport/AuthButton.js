@@ -6,7 +6,7 @@ import Colors from "../../Constants/Colors"
 import { FontFamily } from "../../Assets/Fonts"
 const AuthButton = props => {
     return (
-        <TouchableOpacity disabled={props.disabled} onPress={props.onPress} style={Styles.mainContainer}>
+        <TouchableOpacity disabled={props.disabled} onPress={props.onPress} style={{ ...Styles.mainContainer, backgroundColor: props.bgColor ? props.bgColor : Colors.btnBgColor }}>
             <Text style={{ fontSize: 15, color: Colors.white, fontFamily: FontFamily.Medium }}>{props.title}</Text>
         </TouchableOpacity>
     )

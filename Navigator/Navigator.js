@@ -20,12 +20,13 @@ import { FontFamily } from '../Assets/Fonts';
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons"
 import FontAwesome5 from "react-native-vector-icons/FontAwesome5"
 import AntDesign from "react-native-vector-icons/AntDesign"
+import AccountDeleteWarning from '../Components/UISupport/AccountDeleteWarning';
 import * as AuthAction from '../Store/Action/AuthAction';
 import DeviceInfo from 'react-native-device-info';
 import { useSelector, useDispatch } from 'react-redux';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-
+import SplashScreen from '../Screens/SplashScreen';
 import { createDrawerNavigator, DrawerItemList } from '@react-navigation/drawer';
 import { MFWebView, MFSettings, MFTheme } from 'myfatoorah-reactnative';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -37,6 +38,7 @@ import MiddleWare from '../Screens/Auth/MiddleWare';
 import ChangePassword from '../Screens/Auth/ChangePassword';
 
 import HomeScreen from '../Screens/Home/HomeScreen';
+
 
 //My Adds
 import PostAnAddScreen from '../Screens/Home/PostAnAddScreen';
@@ -100,7 +102,7 @@ const HomeNavigator = () => {
       <Stack.Screen name="postAdd5" component={PostAnAddStep5} />
       <Stack.Screen name="postAddCar5" component={PostAnAddCarStep5} />
       <Stack.Screen name="My Notification" component={MyAlert} />
-      
+
       <Stack.Screen
         name="addProperFeature"
         component={AddsPropertyFeatureScreen}
@@ -125,6 +127,7 @@ const DrawerNavigator = props => {
 
   const dispatch = useDispatch();
   const [deviceId, setDeviceId] = useState(DeviceInfo.getUniqueId());
+  const [showDelete, setShowDelete] = useState(false);
 
   const logOutHandler = async () => {
     dispatch(AuthAction.clearUserInfoToRedux());
@@ -139,7 +142,7 @@ const DrawerNavigator = props => {
   const CustomDrawerStyle = props => {
     return (
       <View style={{ flex: 1 }}>
-      
+
         <ImageBackground
           resizeMode="cover"
           source={require('../Assets/Images/DrawerBg.png')}
@@ -212,6 +215,34 @@ const DrawerNavigator = props => {
           </View>
           <ScrollView style={{ marginTop: 50 }}>
             <DrawerItemList {...props} />
+            <TouchableOpacity
+              onPress={() => {
+                setShowDelete(true)
+              }}
+              style={{
+                height: 50,
+                width: '100%',
+                alignItems: 'center',
+                marginLeft: 18,
+                flexDirection: 'row',
+              }}>
+              <View style={{
+                width: "11.5%",
+                justifyContent: "center", alignItems: "flex-start"
+              }}>
+                <MaIcon size={22} name="delete-outline" color={Colors.blue} />
+              </View>
+              <View style={{ marginLeft: 33 }}>
+                <Text
+                  style={{
+                    color: Colors.white,
+                    fontSize: 15,
+                    fontFamily: FontFamily.Bold
+                  }}>
+                  Account Delete
+                </Text>
+              </View>
+            </TouchableOpacity>
             {loader ? (
               <View
                 style={{
@@ -251,6 +282,16 @@ const DrawerNavigator = props => {
               </TouchableOpacity>
             )}
           </ScrollView>
+          <AccountDeleteWarning
+            onPressNo={() => {
+              setShowDelete(false)
+            }}
+            onPressYes={() => {
+              logOutHandler()
+              setShowDelete(false)
+
+            }}
+            visible={showDelete} />
         </ImageBackground>
       </View>
     );
@@ -258,9 +299,9 @@ const DrawerNavigator = props => {
 
   return (
     <Drawer.Navigator
-    drawerContentOptions={{
-      activeTintColor:"#f0525224"
-    }}
+      drawerContentOptions={{
+        activeTintColor: "#f0525224"
+      }}
 
 
       drawerContent={CustomDrawerStyle}
@@ -310,7 +351,7 @@ const DrawerNavigator = props => {
         name="My Ads"
         component={PostAnAddScreen}
       />
-{/* 
+      {/* 
       <Drawer.Screen
         options={{
           drawerIcon: () => (
@@ -417,7 +458,7 @@ const DrawerNavigator = props => {
         component={MyAlert}
       /> */}
 
-      {/* <Drawer.Screen
+      <Drawer.Screen
         options={{
           drawerIcon: () => (
             <View style={{
@@ -436,7 +477,7 @@ const DrawerNavigator = props => {
         }}
         name="My Requests"
         component={MyRequest}
-      /> */}
+      />
 
       <Drawer.Screen
         options={{
@@ -479,6 +520,10 @@ const DrawerNavigator = props => {
         name="ChangePassword"
         component={ChangePassword}
       />
+
+
+
+
     </Drawer.Navigator>
   );
 };
@@ -486,7 +531,8 @@ const DrawerNavigator = props => {
 const Navigator = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="middleWare" headerMode={false}>
+      <Stack.Navigator initialRouteName="SplashScreen" headerMode={false}>
+        <Stack.Screen name="SplashScreen" component={SplashScreen} />
         <Stack.Screen name="middleWare" component={MiddleWare} />
         <Stack.Screen name="startUp" component={StartUpScreen} />
         <Stack.Screen name="auth" component={AuthNavigator} />

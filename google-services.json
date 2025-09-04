@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "670223529774",
+    "project_id": "fougito-vendor",
+    "storage_bucket": "fougito-vendor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670223529774:android:b5fd1d59f5937209abecbf",
+        "android_client_info": {
+          "package_name": "com.fougitovendor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDORRpIwPlHlz7g2PCeKooUVnkyrL9vxCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

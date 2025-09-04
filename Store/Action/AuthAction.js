@@ -23,7 +23,7 @@ export const UserLogin = (email, password, deviceId) => {
       grant_type: 'password',
       username: email,
       password: password,
-      deviceId: deviceId,
+      deviceId: 12,
       type: 'Vendor',
     });
     var requestOptions = {
@@ -36,6 +36,7 @@ export const UserLogin = (email, password, deviceId) => {
     await fetch(`${BaseURL}/api/security/token`, requestOptions)
       .then(response => response.json())
       .then(result => {
+        console.log(result, "==---")
         if (result.access_token) {
           dispatch({
             type: UserLoginConst.LOGIN_SUCC,

@@ -8,31 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* FougitoVendorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FougitoVendorTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-FougitoVendor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-FougitoVendor.a */; };
+		0A3CF2356E39452EB70FABAC /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73B5822B896944409D55265D /* Inter-SemiBold.ttf */; };
+		117005CC897E47B8831C5F65 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 434FB318DD2C4555A20D39A7 /* Inter-Regular.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-FougitoVendor-FougitoVendorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-FougitoVendor-FougitoVendorTests.a */; };
+		32FB485B2B25436CB61BAB27 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88EE9D34D9F447A888327807 /* Inter-Medium.ttf */; };
+		4C8455D72C7DF5AA00FD32D1 /* Satoshi-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8455CD2C7DF5AA00FD32D1 /* Satoshi-BoldItalic.otf */; };
+		4C8455D82C7DF5AA00FD32D1 /* Satoshi-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8455CD2C7DF5AA00FD32D1 /* Satoshi-BoldItalic.otf */; };
+		4C8455D92C7DF5AA00FD32D1 /* Satoshi-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8455CE2C7DF5AA00FD32D1 /* Satoshi-Black.otf */; };
+		4C8455DA2C7DF5AA00FD32D1 /* Satoshi-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8455CE2C7DF5AA00FD32D1 /* Satoshi-Black.otf */; };
+		4C8455DB2C7DF5AA00FD32D1 /* Satoshi-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8455CF2C7DF5AA00FD32D1 /* Satoshi-Light.otf */; };
+		4C8455DC2C7DF5AA00FD32D1 /* Satoshi-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8455CF2C7DF5AA00FD32D1 /* Satoshi-Light.otf */; };
+		4C8455DD2C7DF5AA00FD32D1 /* Satoshi-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8455D02C7DF5AA00FD32D1 /* Satoshi-Medium.otf */; };
+		4C8455DE2C7DF5AA00FD32D1 /* Satoshi-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8455D02C7DF5AA00FD32D1 /* Satoshi-Medium.otf */; };
+		4C8455DF2C7DF5AA00FD32D1 /* Satoshi-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8455D12C7DF5AA00FD32D1 /* Satoshi-Italic.otf */; };
+		4C8455E02C7DF5AA00FD32D1 /* Satoshi-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8455D12C7DF5AA00FD32D1 /* Satoshi-Italic.otf */; };
+		4C8455E12C7DF5AA00FD32D1 /* Satoshi-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8455D22C7DF5AA00FD32D1 /* Satoshi-Regular.otf */; };
+		4C8455E22C7DF5AA00FD32D1 /* Satoshi-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8455D22C7DF5AA00FD32D1 /* Satoshi-Regular.otf */; };
+		4C8455E32C7DF5AA00FD32D1 /* Satoshi-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8455D32C7DF5AA00FD32D1 /* Satoshi-BlackItalic.otf */; };
+		4C8455E42C7DF5AA00FD32D1 /* Satoshi-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8455D32C7DF5AA00FD32D1 /* Satoshi-BlackItalic.otf */; };
+		4C8455E52C7DF5AA00FD32D1 /* Satoshi-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8455D42C7DF5AA00FD32D1 /* Satoshi-MediumItalic.otf */; };
+		4C8455E62C7DF5AA00FD32D1 /* Satoshi-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8455D42C7DF5AA00FD32D1 /* Satoshi-MediumItalic.otf */; };
+		4C8455E72C7DF5AA00FD32D1 /* Satoshi-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8455D52C7DF5AA00FD32D1 /* Satoshi-Bold.otf */; };
+		4C8455E82C7DF5AA00FD32D1 /* Satoshi-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8455D52C7DF5AA00FD32D1 /* Satoshi-Bold.otf */; };
+		4C8455E92C7DF5AA00FD32D1 /* Satoshi-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8455D62C7DF5AA00FD32D1 /* Satoshi-LightItalic.otf */; };
+		4C8455EA2C7DF5AA00FD32D1 /* Satoshi-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8455D62C7DF5AA00FD32D1 /* Satoshi-LightItalic.otf */; };
+		7BAEF84FDE994906BA370F44 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5415CC8497D42D5B3958E6B /* Inter-ExtraBold.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8B41574194AF02381C694D3E /* libPods-FougitoVendor-FougitoVendorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6894061B11D4277D16D60400 /* libPods-FougitoVendor-FougitoVendorTests.a */; };
+		8F6B818FBEE84AC187EE3690 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4270EF26071942EEA90129E5 /* Inter-Thin.ttf */; };
 		9101983D176448968CDA82B0 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51203682CEAD4FA99BDC8EFF /* Inter-Black.ttf */; };
 		997E433044C74140B5883B73 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21BA467B534D481185659B2D /* Inter-Bold.ttf */; };
-		7BAEF84FDE994906BA370F44 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5415CC8497D42D5B3958E6B /* Inter-ExtraBold.ttf */; };
-		B9C95793B8474076A729619F /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3317E336F299420F9A0FADB9 /* Inter-ExtraLight.ttf */; };
 		A30FFA5C9A4149338379C516 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B36E51BB1894D3A8ED15BE2 /* Inter-Light.ttf */; };
-		32FB485B2B25436CB61BAB27 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88EE9D34D9F447A888327807 /* Inter-Medium.ttf */; };
-		117005CC897E47B8831C5F65 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 434FB318DD2C4555A20D39A7 /* Inter-Regular.ttf */; };
-		0A3CF2356E39452EB70FABAC /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73B5822B896944409D55265D /* Inter-SemiBold.ttf */; };
-		8F6B818FBEE84AC187EE3690 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4270EF26071942EEA90129E5 /* Inter-Thin.ttf */; };
-		B5EEA83020AC40FA8D6FB2E7 /* Satoshi-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = D369BD95FB0F4AF1A09AC4E4 /* Satoshi-Black.otf */; };
-		703AC6A4577046F4996BA487 /* Satoshi-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A9E2E7B0DE543529AB4E5E5 /* Satoshi-BlackItalic.otf */; };
-		F5AC0935F08043D4A0457F49 /* Satoshi-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2228D47269DE4E36AFC131C9 /* Satoshi-Bold.otf */; };
-		2F48E9ED913747C9AF1E12E3 /* Satoshi-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 63EC161706794D658F3B2E5D /* Satoshi-BoldItalic.otf */; };
-		E830747993E343E996E8FFF4 /* Satoshi-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0D34AA2E6220481DB6101657 /* Satoshi-Italic.otf */; };
-		4B4F4FEAF5D94F9B9479A010 /* Satoshi-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 76C2461B8731420CAC334122 /* Satoshi-Light.otf */; };
-		A4A16D5080D24D7A9566EEE8 /* Satoshi-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6845DF51726A4111A45A605D /* Satoshi-LightItalic.otf */; };
-		AB33C30D1CEC41C08EF16438 /* Satoshi-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B214865559A4DC3AAF12056 /* Satoshi-Medium.otf */; };
-		8D9BEA3A8EA64937B184924D /* Satoshi-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C8EE085E03AF4ADBAD6FB474 /* Satoshi-MediumItalic.otf */; };
-		7DBD8EDC1CEE4995B66359AF /* Satoshi-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFCFE162EF734955AD219313 /* Satoshi-Regular.otf */; };
+		B9C95793B8474076A729619F /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3317E336F299420F9A0FADB9 /* Inter-ExtraLight.ttf */; };
+		D48968E9DD4872838C7438C2 /* libPods-FougitoVendor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE4E67EC3BAE6F2B6260E4E /* libPods-FougitoVendor.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,33 +65,33 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FougitoVendor/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = FougitoVendor/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FougitoVendor/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-FougitoVendor-FougitoVendorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FougitoVendor-FougitoVendorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-FougitoVendor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FougitoVendor.debug.xcconfig"; path = "Target Support Files/Pods-FougitoVendor/Pods-FougitoVendor.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-FougitoVendor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FougitoVendor.release.xcconfig"; path = "Target Support Files/Pods-FougitoVendor/Pods-FougitoVendor.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-FougitoVendor-FougitoVendorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FougitoVendor-FougitoVendorTests.debug.xcconfig"; path = "Target Support Files/Pods-FougitoVendor-FougitoVendorTests/Pods-FougitoVendor-FougitoVendorTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-FougitoVendor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FougitoVendor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		165F919094E945B0F4BC0361 /* Pods-FougitoVendor-FougitoVendorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FougitoVendor-FougitoVendorTests.release.xcconfig"; path = "Target Support Files/Pods-FougitoVendor-FougitoVendorTests/Pods-FougitoVendor-FougitoVendorTests.release.xcconfig"; sourceTree = "<group>"; };
+		17847C6E32C8890657D2265D /* Pods-FougitoVendor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FougitoVendor.release.xcconfig"; path = "Target Support Files/Pods-FougitoVendor/Pods-FougitoVendor.release.xcconfig"; sourceTree = "<group>"; };
+		21BA467B534D481185659B2D /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../Assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
+		3317E336F299420F9A0FADB9 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraLight.ttf"; path = "../Assets/fonts/Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		3CE4E67EC3BAE6F2B6260E4E /* libPods-FougitoVendor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FougitoVendor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4270EF26071942EEA90129E5 /* Inter-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Thin.ttf"; path = "../Assets/fonts/Inter-Thin.ttf"; sourceTree = "<group>"; };
+		434FB318DD2C4555A20D39A7 /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../Assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
+		4C8455CD2C7DF5AA00FD32D1 /* Satoshi-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Satoshi-BoldItalic.otf"; path = "../Assets/fonts/Satoshi-BoldItalic.otf"; sourceTree = "<group>"; };
+		4C8455CE2C7DF5AA00FD32D1 /* Satoshi-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Satoshi-Black.otf"; path = "../Assets/fonts/Satoshi-Black.otf"; sourceTree = "<group>"; };
+		4C8455CF2C7DF5AA00FD32D1 /* Satoshi-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Satoshi-Light.otf"; path = "../Assets/fonts/Satoshi-Light.otf"; sourceTree = "<group>"; };
+		4C8455D02C7DF5AA00FD32D1 /* Satoshi-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Satoshi-Medium.otf"; path = "../Assets/fonts/Satoshi-Medium.otf"; sourceTree = "<group>"; };
+		4C8455D12C7DF5AA00FD32D1 /* Satoshi-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Satoshi-Italic.otf"; path = "../Assets/fonts/Satoshi-Italic.otf"; sourceTree = "<group>"; };
+		4C8455D22C7DF5AA00FD32D1 /* Satoshi-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Satoshi-Regular.otf"; path = "../Assets/fonts/Satoshi-Regular.otf"; sourceTree = "<group>"; };
+		4C8455D32C7DF5AA00FD32D1 /* Satoshi-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Satoshi-BlackItalic.otf"; path = "../Assets/fonts/Satoshi-BlackItalic.otf"; sourceTree = "<group>"; };
+		4C8455D42C7DF5AA00FD32D1 /* Satoshi-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Satoshi-MediumItalic.otf"; path = "../Assets/fonts/Satoshi-MediumItalic.otf"; sourceTree = "<group>"; };
+		4C8455D52C7DF5AA00FD32D1 /* Satoshi-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Satoshi-Bold.otf"; path = "../Assets/fonts/Satoshi-Bold.otf"; sourceTree = "<group>"; };
+		4C8455D62C7DF5AA00FD32D1 /* Satoshi-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Satoshi-LightItalic.otf"; path = "../Assets/fonts/Satoshi-LightItalic.otf"; sourceTree = "<group>"; };
+		51203682CEAD4FA99BDC8EFF /* Inter-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Black.ttf"; path = "../Assets/fonts/Inter-Black.ttf"; sourceTree = "<group>"; };
+		6894061B11D4277D16D60400 /* libPods-FougitoVendor-FougitoVendorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FougitoVendor-FougitoVendorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73B5822B896944409D55265D /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../Assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = FougitoVendor/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-FougitoVendor-FougitoVendorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FougitoVendor-FougitoVendorTests.release.xcconfig"; path = "Target Support Files/Pods-FougitoVendor-FougitoVendorTests/Pods-FougitoVendor-FougitoVendorTests.release.xcconfig"; sourceTree = "<group>"; };
+		88EE9D34D9F447A888327807 /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../Assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
+		8B36E51BB1894D3A8ED15BE2 /* Inter-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Light.ttf"; path = "../Assets/fonts/Inter-Light.ttf"; sourceTree = "<group>"; };
+		9532741D05584D102481DE6C /* Pods-FougitoVendor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FougitoVendor.debug.xcconfig"; path = "Target Support Files/Pods-FougitoVendor/Pods-FougitoVendor.debug.xcconfig"; sourceTree = "<group>"; };
+		B31BDC0F06388966D1D3F3DE /* Pods-FougitoVendor-FougitoVendorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FougitoVendor-FougitoVendorTests.debug.xcconfig"; path = "Target Support Files/Pods-FougitoVendor-FougitoVendorTests/Pods-FougitoVendor-FougitoVendorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5415CC8497D42D5B3958E6B /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraBold.ttf"; path = "../Assets/fonts/Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		51203682CEAD4FA99BDC8EFF /* Inter-Black.ttf */ = {isa = PBXFileReference; name = "Inter-Black.ttf"; path = "../Assets/fonts/Inter-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		21BA467B534D481185659B2D /* Inter-Bold.ttf */ = {isa = PBXFileReference; name = "Inter-Bold.ttf"; path = "../Assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C5415CC8497D42D5B3958E6B /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Inter-ExtraBold.ttf"; path = "../Assets/fonts/Inter-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3317E336F299420F9A0FADB9 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Inter-ExtraLight.ttf"; path = "../Assets/fonts/Inter-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8B36E51BB1894D3A8ED15BE2 /* Inter-Light.ttf */ = {isa = PBXFileReference; name = "Inter-Light.ttf"; path = "../Assets/fonts/Inter-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		88EE9D34D9F447A888327807 /* Inter-Medium.ttf */ = {isa = PBXFileReference; name = "Inter-Medium.ttf"; path = "../Assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		434FB318DD2C4555A20D39A7 /* Inter-Regular.ttf */ = {isa = PBXFileReference; name = "Inter-Regular.ttf"; path = "../Assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		73B5822B896944409D55265D /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; name = "Inter-SemiBold.ttf"; path = "../Assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4270EF26071942EEA90129E5 /* Inter-Thin.ttf */ = {isa = PBXFileReference; name = "Inter-Thin.ttf"; path = "../Assets/fonts/Inter-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D369BD95FB0F4AF1A09AC4E4 /* Satoshi-Black.otf */ = {isa = PBXFileReference; name = "Satoshi-Black.otf"; path = "../Assets/fonts/Satoshi-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3A9E2E7B0DE543529AB4E5E5 /* Satoshi-BlackItalic.otf */ = {isa = PBXFileReference; name = "Satoshi-BlackItalic.otf"; path = "../Assets/fonts/Satoshi-BlackItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2228D47269DE4E36AFC131C9 /* Satoshi-Bold.otf */ = {isa = PBXFileReference; name = "Satoshi-Bold.otf"; path = "../Assets/fonts/Satoshi-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		63EC161706794D658F3B2E5D /* Satoshi-BoldItalic.otf */ = {isa = PBXFileReference; name = "Satoshi-BoldItalic.otf"; path = "../Assets/fonts/Satoshi-BoldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0D34AA2E6220481DB6101657 /* Satoshi-Italic.otf */ = {isa = PBXFileReference; name = "Satoshi-Italic.otf"; path = "../Assets/fonts/Satoshi-Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		76C2461B8731420CAC334122 /* Satoshi-Light.otf */ = {isa = PBXFileReference; name = "Satoshi-Light.otf"; path = "../Assets/fonts/Satoshi-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6845DF51726A4111A45A605D /* Satoshi-LightItalic.otf */ = {isa = PBXFileReference; name = "Satoshi-LightItalic.otf"; path = "../Assets/fonts/Satoshi-LightItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4B214865559A4DC3AAF12056 /* Satoshi-Medium.otf */ = {isa = PBXFileReference; name = "Satoshi-Medium.otf"; path = "../Assets/fonts/Satoshi-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C8EE085E03AF4ADBAD6FB474 /* Satoshi-MediumItalic.otf */ = {isa = PBXFileReference; name = "Satoshi-MediumItalic.otf"; path = "../Assets/fonts/Satoshi-MediumItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EFCFE162EF734955AD219313 /* Satoshi-Regular.otf */ = {isa = PBXFileReference; name = "Satoshi-Regular.otf"; path = "../Assets/fonts/Satoshi-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-FougitoVendor-FougitoVendorTests.a in Frameworks */,
+				8B41574194AF02381C694D3E /* libPods-FougitoVendor-FougitoVendorTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-FougitoVendor.a in Frameworks */,
+				D48968E9DD4872838C7438C2 /* libPods-FougitoVendor.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-FougitoVendor.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-FougitoVendor-FougitoVendorTests.a */,
+				3CE4E67EC3BAE6F2B6260E4E /* libPods-FougitoVendor.a */,
+				6894061B11D4277D16D60400 /* libPods-FougitoVendor-FougitoVendorTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -179,40 +189,39 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-FougitoVendor.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-FougitoVendor.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-FougitoVendor-FougitoVendorTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-FougitoVendor-FougitoVendorTests.release.xcconfig */,
+				9532741D05584D102481DE6C /* Pods-FougitoVendor.debug.xcconfig */,
+				17847C6E32C8890657D2265D /* Pods-FougitoVendor.release.xcconfig */,
+				B31BDC0F06388966D1D3F3DE /* Pods-FougitoVendor-FougitoVendorTests.debug.xcconfig */,
+				165F919094E945B0F4BC0361 /* Pods-FougitoVendor-FougitoVendorTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		F585FFD441C64D9888D7A1B9 /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				51203682CEAD4FA99BDC8EFF /* Inter-Black.ttf */,
 				21BA467B534D481185659B2D /* Inter-Bold.ttf */,
 				C5415CC8497D42D5B3958E6B /* Inter-ExtraBold.ttf */,
+				4C8455CE2C7DF5AA00FD32D1 /* Satoshi-Black.otf */,
+				4C8455D32C7DF5AA00FD32D1 /* Satoshi-BlackItalic.otf */,
+				4C8455D52C7DF5AA00FD32D1 /* Satoshi-Bold.otf */,
+				4C8455CD2C7DF5AA00FD32D1 /* Satoshi-BoldItalic.otf */,
+				4C8455D12C7DF5AA00FD32D1 /* Satoshi-Italic.otf */,
+				4C8455CF2C7DF5AA00FD32D1 /* Satoshi-Light.otf */,
+				4C8455D62C7DF5AA00FD32D1 /* Satoshi-LightItalic.otf */,
+				4C8455D02C7DF5AA00FD32D1 /* Satoshi-Medium.otf */,
+				4C8455D42C7DF5AA00FD32D1 /* Satoshi-MediumItalic.otf */,
+				4C8455D22C7DF5AA00FD32D1 /* Satoshi-Regular.otf */,
 				3317E336F299420F9A0FADB9 /* Inter-ExtraLight.ttf */,
 				8B36E51BB1894D3A8ED15BE2 /* Inter-Light.ttf */,
 				88EE9D34D9F447A888327807 /* Inter-Medium.ttf */,
 				434FB318DD2C4555A20D39A7 /* Inter-Regular.ttf */,
 				73B5822B896944409D55265D /* Inter-SemiBold.ttf */,
 				4270EF26071942EEA90129E5 /* Inter-Thin.ttf */,
-				D369BD95FB0F4AF1A09AC4E4 /* Satoshi-Black.otf */,
-				3A9E2E7B0DE543529AB4E5E5 /* Satoshi-BlackItalic.otf */,
-				2228D47269DE4E36AFC131C9 /* Satoshi-Bold.otf */,
-				63EC161706794D658F3B2E5D /* Satoshi-BoldItalic.otf */,
-				0D34AA2E6220481DB6101657 /* Satoshi-Italic.otf */,
-				76C2461B8731420CAC334122 /* Satoshi-Light.otf */,
-				6845DF51726A4111A45A605D /* Satoshi-LightItalic.otf */,
-				4B214865559A4DC3AAF12056 /* Satoshi-Medium.otf */,
-				C8EE085E03AF4ADBAD6FB474 /* Satoshi-MediumItalic.otf */,
-				EFCFE162EF734955AD219313 /* Satoshi-Regular.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -221,12 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FougitoVendorTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				A5E7CCE7B665BB11F21111A3 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				5433A092F7DEF5F5D7CAE199 /* [CP] Embed Pods Frameworks */,
+				66DC74F7D9D4166C8329AA84 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -242,14 +251,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FougitoVendor" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				4D9CA54881DABD1D5FFE3C14 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				DDE392BA1DB8AF945266C867 /* [CP] Embed Pods Frameworks */,
+				A51B2340227494DB2ABF5328 /* [CP] Copy Pods Resources */,
+				B1D4560D4C4B3E172B5D9ED7 /* [CP-User] [RNFB] Core Configuration */,
 			);
 			buildRules = (
 			);
@@ -301,6 +311,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8455E82C7DF5AA00FD32D1 /* Satoshi-Bold.otf in Resources */,
+				4C8455D82C7DF5AA00FD32D1 /* Satoshi-BoldItalic.otf in Resources */,
+				4C8455DA2C7DF5AA00FD32D1 /* Satoshi-Black.otf in Resources */,
+				4C8455E22C7DF5AA00FD32D1 /* Satoshi-Regular.otf in Resources */,
+				4C8455EA2C7DF5AA00FD32D1 /* Satoshi-LightItalic.otf in Resources */,
+				4C8455DE2C7DF5AA00FD32D1 /* Satoshi-Medium.otf in Resources */,
+				4C8455E02C7DF5AA00FD32D1 /* Satoshi-Italic.otf in Resources */,
+				4C8455E42C7DF5AA00FD32D1 /* Satoshi-BlackItalic.otf in Resources */,
+				4C8455E62C7DF5AA00FD32D1 /* Satoshi-MediumItalic.otf in Resources */,
+				4C8455DC2C7DF5AA00FD32D1 /* Satoshi-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,27 +328,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8455DB2C7DF5AA00FD32D1 /* Satoshi-Light.otf in Resources */,
+				4C8455E52C7DF5AA00FD32D1 /* Satoshi-MediumItalic.otf in Resources */,
+				4C8455E32C7DF5AA00FD32D1 /* Satoshi-BlackItalic.otf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				9101983D176448968CDA82B0 /* Inter-Black.ttf in Resources */,
 				997E433044C74140B5883B73 /* Inter-Bold.ttf in Resources */,
 				7BAEF84FDE994906BA370F44 /* Inter-ExtraBold.ttf in Resources */,
+				4C8455E72C7DF5AA00FD32D1 /* Satoshi-Bold.otf in Resources */,
 				B9C95793B8474076A729619F /* Inter-ExtraLight.ttf in Resources */,
+				4C8455E12C7DF5AA00FD32D1 /* Satoshi-Regular.otf in Resources */,
+				4C8455DF2C7DF5AA00FD32D1 /* Satoshi-Italic.otf in Resources */,
 				A30FFA5C9A4149338379C516 /* Inter-Light.ttf in Resources */,
+				4C8455E92C7DF5AA00FD32D1 /* Satoshi-LightItalic.otf in Resources */,
 				32FB485B2B25436CB61BAB27 /* Inter-Medium.ttf in Resources */,
+				4C8455D72C7DF5AA00FD32D1 /* Satoshi-BoldItalic.otf in Resources */,
 				117005CC897E47B8831C5F65 /* Inter-Regular.ttf in Resources */,
 				0A3CF2356E39452EB70FABAC /* Inter-SemiBold.ttf in Resources */,
+				4C8455D92C7DF5AA00FD32D1 /* Satoshi-Black.otf in Resources */,
 				8F6B818FBEE84AC187EE3690 /* Inter-Thin.ttf in Resources */,
-				B5EEA83020AC40FA8D6FB2E7 /* Satoshi-Black.otf in Resources */,
-				703AC6A4577046F4996BA487 /* Satoshi-BlackItalic.otf in Resources */,
-				F5AC0935F08043D4A0457F49 /* Satoshi-Bold.otf in Resources */,
-				2F48E9ED913747C9AF1E12E3 /* Satoshi-BoldItalic.otf in Resources */,
-				E830747993E343E996E8FFF4 /* Satoshi-Italic.otf in Resources */,
-				4B4F4FEAF5D94F9B9479A010 /* Satoshi-Light.otf in Resources */,
-				A4A16D5080D24D7A9566EEE8 /* Satoshi-LightItalic.otf in Resources */,
-				AB33C30D1CEC41C08EF16438 /* Satoshi-Medium.otf in Resources */,
-				8D9BEA3A8EA64937B184924D /* Satoshi-MediumItalic.otf in Resources */,
-				7DBD8EDC1CEE4995B66359AF /* Satoshi-Regular.otf in Resources */,
+				4C8455DD2C7DF5AA00FD32D1 /* Satoshi-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,46 +369,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor/Pods-FougitoVendor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor/Pods-FougitoVendor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor/Pods-FougitoVendor-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FougitoVendor-FougitoVendorTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		4D9CA54881DABD1D5FFE3C14 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -410,7 +391,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+		5433A092F7DEF5F5D7CAE199 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -427,7 +408,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor-FougitoVendorTests/Pods-FougitoVendor-FougitoVendorTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+		66DC74F7D9D4166C8329AA84 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor-FougitoVendorTests/Pods-FougitoVendor-FougitoVendorTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor-FougitoVendorTests/Pods-FougitoVendor-FougitoVendorTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor-FougitoVendorTests/Pods-FougitoVendor-FougitoVendorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A51B2340227494DB2ABF5328 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -444,21 +442,56 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor/Pods-FougitoVendor-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+		A5E7CCE7B665BB11F21111A3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor-FougitoVendorTests/Pods-FougitoVendor-FougitoVendorTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor-FougitoVendorTests/Pods-FougitoVendor-FougitoVendorTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FougitoVendor-FougitoVendorTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor-FougitoVendorTests/Pods-FougitoVendor-FougitoVendorTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1D4560D4C4B3E172B5D9ED7 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\n\n##########################################################################\n##########################################################################\n#\n#  NOTE THAT IF YOU CHANGE THIS FILE YOU MUST RUN pod install AFTERWARDS\n#\n#  This file is installed as an Xcode build script in the project file\n#  by cocoapods, and you will not see your changes until you pod install\n#\n##########################################################################\n##########################################################################\n\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | /usr/bin/head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    if ! python3 --version >/dev/null 2>&1; then echo \"python3 not found, firebase.json file processing error.\" && exit 1; fi\n    _JSON_OUTPUT_BASE64=$(python3 -c 'import json,sys,base64;print(base64.b64encode(bytes(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"', '\"'rb'\"').read())['${_JSON_ROOT}']), '\"'utf-8'\"')).decode())' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.app_data_collection_default_enabled\n  _APP_DATA_COLLECTION_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_data_collection_default_enabled\")\n  if [[ $_APP_DATA_COLLECTION_ENABLED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseDataCollectionDefaultEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_DATA_COLLECTION_ENABLED\")\")\n  fi\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.analytics_collection_deactivated\n  _ANALYTICS_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_collection_deactivated\")\n  if [[ $_ANALYTICS_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_DEACTIVATED\")\")\n  fi\n\n  # config.analytics_idfv_collection_enabled\n  _ANALYTICS_IDFV_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_idfv_collection_enabled\")\n  if [[ $_ANALYTICS_IDFV_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_IDFV_COLLECTION\")\")\n  fi\n\n  # config.analytics_default_allow_analytics_storage\n  _ANALYTICS_STORAGE=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_analytics_storage\")\n  if [[ $_ANALYTICS_STORAGE ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_ANALYTICS_STORAGE\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_STORAGE\")\")\n  fi\n\n  # config.analytics_default_allow_ad_storage\n  _ANALYTICS_AD_STORAGE=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_storage\")\n  if [[ $_ANALYTICS_AD_STORAGE ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_STORAGE\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AD_STORAGE\")\")\n  fi\n\n  # config.analytics_default_allow_ad_user_data\n  _ANALYTICS_AD_USER_DATA=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_user_data\")\n  if [[ $_ANALYTICS_AD_USER_DATA ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_USER_DATA\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AD_USER_DATA\")\")\n  fi\n\n  # config.analytics_default_allow_ad_personalization_signals\n  _ANALYTICS_PERSONALIZATION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_personalization_signals\")\n  if [[ $_ANALYTICS_PERSONALIZATION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_PERSONALIZATION\")\")\n  fi\n\n  # config.analytics_registration_with_ad_network_enabled\n  _ANALYTICS_REGISTRATION_WITH_AD_NETWORK=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_registration_with_ad_network_enabled\")\n  if [[ $_ANALYTICS_REGISTRATION_WITH_AD_NETWORK ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_REGISTRATION_WITH_AD_NETWORK_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_REGISTRATION_WITH_AD_NETWORK\")\")\n  fi\n\n  # config.google_analytics_automatic_screen_reporting_enabled\n  _ANALYTICS_AUTO_SCREEN_REPORTING=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_automatic_screen_reporting_enabled\")\n  if [[ $_ANALYTICS_AUTO_SCREEN_REPORTING ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAutomaticScreenReportingEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_SCREEN_REPORTING\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_collection_deactivated\n  _PERF_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_collection_deactivated\")\n  if [[ $_PERF_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_deactivated\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_DEACTIVATED\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.in_app_messaging_auto_colllection_enabled\n  _FIAM_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"in_app_messaging_auto_collection_enabled\")\n  if [[ $_FIAM_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseInAppMessagingAutomaticDataCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_FIAM_AUTO_INIT\")\")\n  fi\n\n  # config.app_check_token_auto_refresh\n  _APP_CHECK_TOKEN_AUTO_REFRESH=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_check_token_auto_refresh\")\n  if [[ $_APP_CHECK_TOKEN_AUTO_REFRESH ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAppCheckTokenAutoRefreshEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_CHECK_TOKEN_AUTO_REFRESH\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		DDE392BA1DB8AF945266C867 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor/Pods-FougitoVendor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor/Pods-FougitoVendor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor/Pods-FougitoVendor-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -513,7 +546,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-FougitoVendor-FougitoVendorTests.debug.xcconfig */;
+			baseConfigurationReference = B31BDC0F06388966D1D3F3DE /* Pods-FougitoVendor-FougitoVendorTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -540,7 +573,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-FougitoVendor-FougitoVendorTests.release.xcconfig */;
+			baseConfigurationReference = 165F919094E945B0F4BC0361 /* Pods-FougitoVendor-FougitoVendorTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -564,20 +597,21 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-FougitoVendor.debug.xcconfig */;
+			baseConfigurationReference = 9532741D05584D102481DE6C /* Pods-FougitoVendor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1.0;
+				CURRENT_PROJECT_VERSION = 1.5;
 				DEVELOPMENT_TEAM = M7XN37KV2Z;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FougitoVendor/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Fougito Vendor";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1;
+				MARKETING_VERSION = 5;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -593,19 +627,20 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-FougitoVendor.release.xcconfig */;
+			baseConfigurationReference = 17847C6E32C8890657D2265D /* Pods-FougitoVendor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1.0;
+				CURRENT_PROJECT_VERSION = 1.5;
 				DEVELOPMENT_TEAM = M7XN37KV2Z;
 				INFOPLIST_FILE = FougitoVendor/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Fougito Vendor";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1;
+				MARKETING_VERSION = 5;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",

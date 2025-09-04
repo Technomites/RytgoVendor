@@ -21,7 +21,10 @@ import { useSelector, useDispatch } from 'react-redux';
 import * as DataAction from '../../Store/Action/DataAction';
 import { BaseURL } from '../../Constants/BaseUrl';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-
+import {
+  RequestUserPermission,
+  NotificationListner,
+} from "../../Constants/PushNotificationHalper";
 import { FontFamily } from "../../Constants/Fonts"
 const HomeScreen = props => {
   const userInfo = useSelector(state => state.auth.userInfo);
@@ -85,6 +88,21 @@ const HomeScreen = props => {
         .catch(error => console.log('error', error));
     }
   }, [userInfo]);
+
+
+  const GetToken = async () => {
+    // const fcmTokem = await messaging().getToken();
+    // console.log(fcmTokem)
+
+    RequestUserPermission();
+    NotificationListner();
+  };
+
+  useEffect(() => {
+    GetToken()
+  }, [])
+
+
 
   // useEffect(() => {
   //   // Assume a message-notification contains a "type" property in the data payload of the screen to open

@@ -23,7 +23,7 @@ import DeviceInfo from 'react-native-device-info';
 import PopUpModel from '../../Components/UISupport/PopUpModel';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as NetWorkActioin from '../../Store/Action/NewqorkReqActon';
-
+import messaging from '@react-native-firebase/messaging';
 import * as DataAction from '../../Store/Action/DataAction';
 import { FontFamily } from '../../Assets/Fonts';
 import MyFormInputTile from '../../Components/UISupport/MyFormInputTile';
@@ -57,9 +57,51 @@ const LoginScreen = props => {
     }
   }, [loginErroMessage]);
 
+  async function session() {
+    // const fbToken = await messaging().getToken();
 
+    // console.log(fbToken, "fbTokenfbToken")
 
+    // dispatch(
+    //   AuthAction.firebaseSessionAction(
+    //     userData.access_token,
+    //     fbToken,
+    //     deviceId,
+    //   ),
+    // );
+    // setEmail('');
+    // setPassword('');
+    if (userData) {
+      dispatch(DataAction.getUserProfileInfo(userData?.access_token));
+    }
 
+    if (
+      userInformation?.vendorPackageID == null &&
+      userInformation?.isPackageExpired == true
+    ) {
+      props.navigation.navigate('myPackage');
+    } else if (
+      userInformation?.vendorPackageID == null &&
+      userInformation?.isPackageExpired == false
+    ) {
+      props.navigation.navigate('myPackage');
+    } else if (
+      userInformation?.vendorPackageID !== null &&
+      userInformation?.isPackageExpired == false
+    ) {
+      saveDataIntoStorage(userData);
+      props.navigation.replace('home');
+    } else {
+      saveDataIntoStorage(userData);
+      props.navigation.replace('home');
+    }
+  }
+
+  useEffect(() => {
+    if (userData) {
+      session();
+    }
+  }, [userData]);
 
   useEffect(() => {
     if (request) {

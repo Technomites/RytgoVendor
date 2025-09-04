@@ -530,7 +530,7 @@ const RequestDetailScreen = props => {
                       latitudeDelta: 0.1,
                       longitudeDelta: 0.1,
                     }}>
-                    <MapView.Marker.Animated
+                    {/* <MapView.Marker.Animated
                       draggable
                       coordinate={{
                         latitude: Number(requestData.latitude),
@@ -541,7 +541,7 @@ const RequestDetailScreen = props => {
                         source={require('../../Assets/Images/mapMarker.png')}
                         style={{height: 35, width: 35, resizeMode: 'contain'}}
                       />
-                    </MapView.Marker.Animated>
+                    </MapView.Marker.Animated> */}
                   </MapView>
                 </View>
               )}

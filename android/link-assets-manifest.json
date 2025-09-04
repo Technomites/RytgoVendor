@@ -38,43 +38,43 @@
       "sha1": "2534deaee8e837f29f2e6533f1792efe62fd27d6"
     },
     {
-      "path": "Assets/fonts/Satoshi-Black.otf",
+      "path": "Assets/fonts/Satoshi-Black.ttf",
       "sha1": "d92baad4dab9ca55bc72f1a8a0a6de72829e709f"
     },
     {
-      "path": "Assets/fonts/Satoshi-BlackItalic.otf",
+      "path": "Assets/fonts/Satoshi-BlackItalic.ttf",
       "sha1": "2fada5e2f31f7e2f252d458094603daca66f4a0a"
     },
     {
-      "path": "Assets/fonts/Satoshi-Bold.otf",
+      "path": "Assets/fonts/Satoshi-Bold.ttf",
       "sha1": "57a9e1c24984708865f7d0c31a03773912fb975f"
     },
     {
-      "path": "Assets/fonts/Satoshi-BoldItalic.otf",
+      "path": "Assets/fonts/Satoshi-BoldItalic.ttf",
       "sha1": "c279f41805b46f030eb4a1d55ceaf7c4cacd1a39"
     },
     {
-      "path": "Assets/fonts/Satoshi-Italic.otf",
+      "path": "Assets/fonts/Satoshi-Italic.ttf",
       "sha1": "1ee38a9969b628781bc30ed690f6571aca189451"
     },
     {
-      "path": "Assets/fonts/Satoshi-Light.otf",
+      "path": "Assets/fonts/Satoshi-Light.ttf",
       "sha1": "3b1b977f00db442bdf30f63603112e6e251b7dda"
     },
     {
-      "path": "Assets/fonts/Satoshi-LightItalic.otf",
+      "path": "Assets/fonts/Satoshi-LightItalic.ttf",
       "sha1": "782b6239e9a537ffcd574fb26b69201b67b96dc2"
     },
     {
-      "path": "Assets/fonts/Satoshi-Medium.otf",
+      "path": "Assets/fonts/Satoshi-Medium.ttf",
       "sha1": "704faccb5fff19f25c0b914d42d135ab75794a24"
     },
     {
-      "path": "Assets/fonts/Satoshi-MediumItalic.otf",
+      "path": "Assets/fonts/Satoshi-MediumItalic.ttf",
       "sha1": "89936e7345cfa18dadc048e3a9266947c7f12839"
     },
     {
-      "path": "Assets/fonts/Satoshi-Regular.otf",
+      "path": "Assets/fonts/Satoshi-Regular.ttf",
       "sha1": "7dcb59994f2bee1a4ef1f6c079ba0e99b409878b"
     }
   ]
