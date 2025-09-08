@@ -2,80 +2,96 @@
   "migIndex": 1,
   "data": [
     {
-      "path": "Assets/fonts/Inter-Black.ttf",
-      "sha1": "ff2d9fdf17ab9adfd7cd41a75ef0495f11d27b56"
+      "path": "assets/fonts/Figtree-Black.ttf",
+      "sha1": "2336c6dd3185a86b37c298a18408fe91785028fb"
     },
     {
-      "path": "Assets/fonts/Inter-Bold.ttf",
-      "sha1": "114827cbea95681eee9d877b0b1ab0515d5f3b69"
+      "path": "assets/fonts/Figtree-BlackItalic.ttf",
+      "sha1": "1f27b25a2204a39535d8420bd0316e626d7a008b"
     },
     {
-      "path": "Assets/fonts/Inter-ExtraBold.ttf",
-      "sha1": "0a6cf7f44c9be40bd1179af91ed3589b534e2642"
+      "path": "assets/fonts/Figtree-Bold.ttf",
+      "sha1": "82e096f1e69d1b880b3a0e7c28c03d54a56152c5"
     },
     {
-      "path": "Assets/fonts/Inter-ExtraLight.ttf",
-      "sha1": "9b79bf395137be66b2c17acec56c4915e10a12f1"
+      "path": "assets/fonts/Figtree-BoldItalic.ttf",
+      "sha1": "d7c6a33a3ec4e1c0a118cff78797fb8a32aa0cba"
     },
     {
-      "path": "Assets/fonts/Inter-Light.ttf",
-      "sha1": "791a657bf537ff4272bae72f43c1c9981ab4d623"
+      "path": "assets/fonts/Figtree-ExtraBold.ttf",
+      "sha1": "d97c21729dc73543014923ccc5b9d5c4e02ebb09"
     },
     {
-      "path": "Assets/fonts/Inter-Medium.ttf",
-      "sha1": "17ec5016a5f2b2ea4f27f7bce1df4192d3590161"
+      "path": "assets/fonts/Figtree-ExtraBoldItalic.ttf",
+      "sha1": "f450166b7f862a4e8c6c5756fcf2cfea007f547c"
     },
     {
-      "path": "Assets/fonts/Inter-Regular.ttf",
-      "sha1": "077f819e60120b1ded3d5c5d8a23b8b53e12ec17"
+      "path": "assets/fonts/Figtree-Italic.ttf",
+      "sha1": "5bac80c960afa1c89c5f1db328630a316922eeb2"
     },
     {
-      "path": "Assets/fonts/Inter-SemiBold.ttf",
-      "sha1": "29d9db84af04e729a01e0bb076c0afdf723e8bc5"
+      "path": "assets/fonts/Figtree-Light.ttf",
+      "sha1": "e650daefaa97970d8daa8654b9a35a8a43de093a"
     },
     {
-      "path": "Assets/fonts/Inter-Thin.ttf",
-      "sha1": "2534deaee8e837f29f2e6533f1792efe62fd27d6"
+      "path": "assets/fonts/Figtree-LightItalic.ttf",
+      "sha1": "0b9903d83aaada5bf91d08251298abc7b6b539bd"
     },
     {
-      "path": "Assets/fonts/Satoshi-Black.ttf",
-      "sha1": "d92baad4dab9ca55bc72f1a8a0a6de72829e709f"
+      "path": "assets/fonts/Figtree-Medium.ttf",
+      "sha1": "e3688e24751e01c1bed1fb655fae79316735de2d"
     },
     {
-      "path": "Assets/fonts/Satoshi-BlackItalic.ttf",
-      "sha1": "2fada5e2f31f7e2f252d458094603daca66f4a0a"
+      "path": "assets/fonts/Figtree-MediumItalic.ttf",
+      "sha1": "990e32528a6e7de339ecf28f627174d42c0facdb"
     },
     {
-      "path": "Assets/fonts/Satoshi-Bold.ttf",
-      "sha1": "57a9e1c24984708865f7d0c31a03773912fb975f"
+      "path": "assets/fonts/Figtree-Regular.ttf",
+      "sha1": "b971ba6c123ca42604ae74840afd8e1ade6926ea"
     },
     {
-      "path": "Assets/fonts/Satoshi-BoldItalic.ttf",
-      "sha1": "c279f41805b46f030eb4a1d55ceaf7c4cacd1a39"
+      "path": "assets/fonts/Figtree-SemiBold.ttf",
+      "sha1": "17f9c71ec7a0e79fe74b6e0f14b64f3b55dae9cb"
     },
     {
-      "path": "Assets/fonts/Satoshi-Italic.ttf",
-      "sha1": "1ee38a9969b628781bc30ed690f6571aca189451"
+      "path": "assets/fonts/Figtree-SemiBoldItalic.ttf",
+      "sha1": "3805bce21c6002b0defe2fa73fb89e7d0a02a84d"
     },
     {
-      "path": "Assets/fonts/Satoshi-Light.ttf",
-      "sha1": "3b1b977f00db442bdf30f63603112e6e251b7dda"
+      "path": "assets/fonts/Outfit-Black.ttf",
+      "sha1": "51e4964fd4b0072e2f90fd3b1d9883a142130e74"
     },
     {
-      "path": "Assets/fonts/Satoshi-LightItalic.ttf",
-      "sha1": "782b6239e9a537ffcd574fb26b69201b67b96dc2"
+      "path": "assets/fonts/Outfit-Bold.ttf",
+      "sha1": "dd5f4206d22d8b093a53a2f6423ed532fd656aeb"
     },
     {
-      "path": "Assets/fonts/Satoshi-Medium.ttf",
-      "sha1": "704faccb5fff19f25c0b914d42d135ab75794a24"
+      "path": "assets/fonts/Outfit-ExtraBold.ttf",
+      "sha1": "89c8a2a10ed63a324be105656649546f0be6d8a1"
     },
     {
-      "path": "Assets/fonts/Satoshi-MediumItalic.ttf",
-      "sha1": "89936e7345cfa18dadc048e3a9266947c7f12839"
+      "path": "assets/fonts/Outfit-ExtraLight.ttf",
+      "sha1": "848a413a4d79c8bff066416dfa3771485d0c4ec9"
     },
     {
-      "path": "Assets/fonts/Satoshi-Regular.ttf",
-      "sha1": "7dcb59994f2bee1a4ef1f6c079ba0e99b409878b"
+      "path": "assets/fonts/Outfit-Light.ttf",
+      "sha1": "77822e4eba7d32622113003e21b0d17ed7a8f528"
+    },
+    {
+      "path": "assets/fonts/Outfit-Medium.ttf",
+      "sha1": "accdc4a94720336a48bb6fd31759bbfa268f902e"
+    },
+    {
+      "path": "assets/fonts/Outfit-Regular.ttf",
+      "sha1": "7724dc42adf3e8caa9a1f7f64bc02016f201f550"
+    },
+    {
+      "path": "assets/fonts/Outfit-SemiBold.ttf",
+      "sha1": "8e01f823ad73ea02ad96c676497c3e050d6e9e90"
+    },
+    {
+      "path": "assets/fonts/Outfit-Thin.ttf",
+      "sha1": "09459262264acfe2f30db5fcf2de63e6115449b6"
     }
   ]
 }

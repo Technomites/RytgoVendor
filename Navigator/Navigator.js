@@ -82,11 +82,11 @@ const AuthNavigator = () => {
       <Stack.Screen name="signUp" component={SignUpScreen} />
       <Stack.Screen name="forgotPassword" component={ForgotPassword} />
       <Stack.Screen name="myPackage" component={MyPackage} />
-      <Stack.Screen
+      {/* <Stack.Screen
         name="MFWebView"
         component={MFWebView}
         options={MFWebView.navigationOptions}
-      />
+      /> */}
     </Stack.Navigator>
   );
 };
