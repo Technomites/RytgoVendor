@@ -1,5 +1,5 @@
 export default {
-  blue: '#F05252',
+  blue: '#226F65',
   black: '#191919',
   white: '#FFFFFF',
   gray: '#19191933',
@@ -10,5 +10,5 @@ export default {
   techGrey: 'grey',
   techBg: 'white',
   inputBg: '#8E7C7C14',
-  btnBgColor: "#F05252"
+  btnBgColor: "#226F65"
 };
