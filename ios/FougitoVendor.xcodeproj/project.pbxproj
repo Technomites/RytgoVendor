@@ -609,7 +609,7 @@
 				DEVELOPMENT_TEAM = M7XN37KV2Z;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FougitoVendor/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Fougito Vendor";
+				INFOPLIST_KEY_CFBundleDisplayName = "Rytgo Vendor";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -621,7 +621,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fougitovendor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rytgovendor;
 				PRODUCT_NAME = FougitoVendor;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -638,7 +638,7 @@
 				CURRENT_PROJECT_VERSION = 1.5;
 				DEVELOPMENT_TEAM = M7XN37KV2Z;
 				INFOPLIST_FILE = FougitoVendor/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Fougito Vendor";
+				INFOPLIST_KEY_CFBundleDisplayName = "Rytgo Vendor";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -650,7 +650,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fougitovendor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rytgovendor;
 				PRODUCT_NAME = FougitoVendor;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";

@@ -78,10 +78,10 @@ const Drawer = createDrawerNavigator();
 const AuthNavigator = () => {
   return (
     <Stack.Navigator initialRouteName="login" headerMode={false}>
-      <Stack.Screen name="login" component={LoginScreen} />
-      <Stack.Screen name="signUp" component={SignUpScreen} />
-      <Stack.Screen name="forgotPassword" component={ForgotPassword} />
-      <Stack.Screen name="myPackage" component={MyPackage} />
+      <Stack.Screen name="login" component={LoginScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="signUp" component={SignUpScreen}  options={{ headerShown: false }}/>
+      <Stack.Screen name="forgotPassword" component={ForgotPassword} options={{ headerShown: false }} />
+      <Stack.Screen name="myPackage" component={MyPackage} options={{ headerShown: false }} />
       {/* <Stack.Screen
         name="MFWebView"
         component={MFWebView}
@@ -94,28 +94,29 @@ const AuthNavigator = () => {
 const HomeNavigator = () => {
   return (
     <Stack.Navigator headerMode={false}>
-      <Stack.Screen name="Home" component={HomeScreen} />
-      <Stack.Screen name="postAdd" component={PostAnAddScreen} />
-      <Stack.Screen name="properRent" component={PropertyForRentScreen} />
-      <Stack.Screen name="postAdd3" component={PostAnAddStep3} />
-      <Stack.Screen name="postAdd4" component={PostAnAddStep4} />
-      <Stack.Screen name="postAdd5" component={PostAnAddStep5} />
-      <Stack.Screen name="postAddCar5" component={PostAnAddCarStep5} />
-      <Stack.Screen name="My Notification" component={MyAlert} />
+      <Stack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="postAdd" component={PostAnAddScreen}  options={{ headerShown: false }}/>
+      <Stack.Screen name="properRent" component={PropertyForRentScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="postAdd3" component={PostAnAddStep3} options={{ headerShown: false }}/>
+      <Stack.Screen name="postAdd4" component={PostAnAddStep4} options={{ headerShown: false }} />
+      <Stack.Screen name="postAdd5" component={PostAnAddStep5} options={{ headerShown: false }} />
+      <Stack.Screen name="postAddCar5" component={PostAnAddCarStep5} options={{ headerShown: false }} />
+      <Stack.Screen name="My Notification" component={MyAlert} options={{ headerShown: false }} />
 
       <Stack.Screen
         name="addProperFeature"
         component={AddsPropertyFeatureScreen}
+        options={{ headerShown: false }}
       />
-      <Stack.Screen name="requestDetail" component={RequestDetailScreen} />
-      <Stack.Screen name="manageAdd" component={ManageMyAddScreen} />
-      <Stack.Screen name="manageAddDetail" component={ManageDetailScreen} />
-      <Stack.Screen name="MyProfile" component={MyProfile} />
-      <Stack.Screen
+      <Stack.Screen name="requestDetail" component={RequestDetailScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="manageAdd" component={ManageMyAddScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="manageAddDetail" component={ManageDetailScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="MyProfile" component={MyProfile} options={{ headerShown: false }} />
+      {/* <Stack.Screen
         name="MFWebView"
         component={MFWebView}
         options={MFWebView.navigationOptions}
-      />
+      /> */}
     </Stack.Navigator>
   );
 };
@@ -309,6 +310,7 @@ const DrawerNavigator = props => {
       headerMode={false}>
       <Drawer.Screen
         options={{
+          headerShown: false ,
           drawerIcon: () => (
             <View style={{
               width: "13%",
@@ -333,6 +335,7 @@ const DrawerNavigator = props => {
 
       <Drawer.Screen
         options={{
+          headerShown: false ,
           drawerIcon: () => (
             <View style={{
               width: "13%",
@@ -460,6 +463,7 @@ const DrawerNavigator = props => {
 
       <Drawer.Screen
         options={{
+          headerShown: false ,
           drawerIcon: () => (
             <View style={{
               width: "13%",
@@ -480,7 +484,9 @@ const DrawerNavigator = props => {
       />
 
       <Drawer.Screen
+
         options={{
+          headerShown: false ,
           drawerIcon: () => (
             <View style={{
               width: "13%",
@@ -502,6 +508,7 @@ const DrawerNavigator = props => {
 
       <Drawer.Screen
         options={{
+          headerShown: false ,
           drawerIcon: () => (
             <View style={{
               width: "13%",
@@ -531,12 +538,12 @@ const DrawerNavigator = props => {
 const Navigator = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="SplashScreen" headerMode={false}>
-        <Stack.Screen name="SplashScreen" component={SplashScreen} />
-        <Stack.Screen name="middleWare" component={MiddleWare} />
-        <Stack.Screen name="startUp" component={StartUpScreen} />
-        <Stack.Screen name="auth" component={AuthNavigator} />
-        <Stack.Screen name="home" component={DrawerNavigator} />
+      <Stack.Navigator initialRouteName="SplashScreen" >
+        <Stack.Screen name="SplashScreen" component={SplashScreen} options={{ headerShown: false }} />
+        <Stack.Screen name="middleWare" component={MiddleWare} options={{ headerShown: false }} />
+        <Stack.Screen name="startUp" component={StartUpScreen} options={{ headerShown: false }} />
+        <Stack.Screen name="auth" component={AuthNavigator} options={{ headerShown: false }} />
+        <Stack.Screen name="home" component={DrawerNavigator} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

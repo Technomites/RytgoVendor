@@ -1,4 +1,4 @@
-package com.fougitovendor
+package com.rytgovendor
 
 import android.app.Application
 import com.facebook.react.PackageList

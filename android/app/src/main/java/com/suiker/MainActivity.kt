@@ -1,4 +1,4 @@
-package com.fougitovendor
+package com.rytgovendor
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Fougito Vendor</string>
+	<string>Rytgo Vendor</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -22,6 +22,8 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>5</string>
+	<key>GOOGLE_MAPS_API_KEY</key>
+	<string>AIzaSyDL1Kk_B0bkRx9FmM3v-3oRn57_MzFyiM8</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -36,11 +38,9 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string/>
+	<string></string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>This app requires access to the photo library.</string>
-	<key>GOOGLE_MAPS_API_KEY</key>
-	<string>AIzaSyDL1Kk_B0bkRx9FmM3v-3oRn57_MzFyiM8</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>AntDesign.ttf</string>
