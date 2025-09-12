@@ -42,6 +42,7 @@ const App: () => Node = () => {
   }, []);
 
   return (
+
     <Provider store={Store}>
       <Navigator />
     </Provider>

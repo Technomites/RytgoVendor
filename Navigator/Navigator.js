@@ -71,6 +71,7 @@ import MyRequest from '../Screens/Request/MyRequest';
 import MyProfile from '../Screens/Profile/MyProfile';
 
 import SignUpScreen from '../Screens/Auth/SignUpScreen';
+import { Safeareacontext } from '../Constants/SafeAreaContext';
 
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -79,7 +80,7 @@ const AuthNavigator = () => {
   return (
     <Stack.Navigator initialRouteName="login" headerMode={false}>
       <Stack.Screen name="login" component={LoginScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="signUp" component={SignUpScreen}  options={{ headerShown: false }}/>
+      <Stack.Screen name="signUp" component={SignUpScreen} options={{ headerShown: false }} />
       <Stack.Screen name="forgotPassword" component={ForgotPassword} options={{ headerShown: false }} />
       <Stack.Screen name="myPackage" component={MyPackage} options={{ headerShown: false }} />
       {/* <Stack.Screen
@@ -95,9 +96,9 @@ const HomeNavigator = () => {
   return (
     <Stack.Navigator headerMode={false}>
       <Stack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="postAdd" component={PostAnAddScreen}  options={{ headerShown: false }}/>
+      <Stack.Screen name="postAdd" component={PostAnAddScreen} options={{ headerShown: false }} />
       <Stack.Screen name="properRent" component={PropertyForRentScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="postAdd3" component={PostAnAddStep3} options={{ headerShown: false }}/>
+      <Stack.Screen name="postAdd3" component={PostAnAddStep3} options={{ headerShown: false }} />
       <Stack.Screen name="postAdd4" component={PostAnAddStep4} options={{ headerShown: false }} />
       <Stack.Screen name="postAdd5" component={PostAnAddStep5} options={{ headerShown: false }} />
       <Stack.Screen name="postAddCar5" component={PostAnAddCarStep5} options={{ headerShown: false }} />
@@ -142,7 +143,9 @@ const DrawerNavigator = props => {
 
   const CustomDrawerStyle = props => {
     return (
-      <View style={{ flex: 1 }}>
+      <View style={{
+        flex: 1,
+      }}>
 
         <ImageBackground
           resizeMode="cover"
@@ -154,9 +157,14 @@ const DrawerNavigator = props => {
               width: '100%',
               justifyContent: 'center',
               alignItems: 'center',
+              marginTop: Safeareacontext.top
+
             }}>
             <Image
-              style={{ height: 40, width: 120, resizeMode: 'contain' }}
+              style={{
+                height: 40, width: 120, resizeMode: 'contain',
+
+              }}
               source={require('../Assets/Images/logoWhite.png')}
             />
           </View>
@@ -310,7 +318,7 @@ const DrawerNavigator = props => {
       headerMode={false}>
       <Drawer.Screen
         options={{
-          headerShown: false ,
+          headerShown: false,
           drawerIcon: () => (
             <View style={{
               width: "13%",
@@ -335,7 +343,7 @@ const DrawerNavigator = props => {
 
       <Drawer.Screen
         options={{
-          headerShown: false ,
+          headerShown: false,
           drawerIcon: () => (
             <View style={{
               width: "13%",
@@ -463,7 +471,7 @@ const DrawerNavigator = props => {
 
       <Drawer.Screen
         options={{
-          headerShown: false ,
+          headerShown: false,
           drawerIcon: () => (
             <View style={{
               width: "13%",
@@ -486,7 +494,7 @@ const DrawerNavigator = props => {
       <Drawer.Screen
 
         options={{
-          headerShown: false ,
+          headerShown: false,
           drawerIcon: () => (
             <View style={{
               width: "13%",
@@ -508,7 +516,7 @@ const DrawerNavigator = props => {
 
       <Drawer.Screen
         options={{
-          headerShown: false ,
+          headerShown: false,
           drawerIcon: () => (
             <View style={{
               width: "13%",
@@ -537,8 +545,9 @@ const DrawerNavigator = props => {
 
 const Navigator = () => {
   return (
+
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="SplashScreen" >
+      <Stack.Navigator initialRouteName="SplashScreen">
         <Stack.Screen name="SplashScreen" component={SplashScreen} options={{ headerShown: false }} />
         <Stack.Screen name="middleWare" component={MiddleWare} options={{ headerShown: false }} />
         <Stack.Screen name="startUp" component={StartUpScreen} options={{ headerShown: false }} />

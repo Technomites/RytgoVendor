@@ -10,11 +10,11 @@ const FontFamily = {
   // Medium : "Satoshi-Medium",
   // Regular : "Satoshi-Regular",
   // MediumItalic: "Satoshi-MediumItalic"
-  Bold: 'Satoshi-Bold',
-  SemiBold: 'Satoshi-Medium',
-  Medium: 'Satoshi-Medium',
-  Light: 'Satoshi-Light',
-  Regular: 'Satoshi-Regular',
+  Bold: 'Ubuntu-B',
+  SemiBold: 'Montserrat-SemiBold',
+  Medium: 'Montserrat-Medium',
+  Light: 'Montserrat-Light',
+  Regular: 'Montserrat-Regular',
 };
 
 export {FontFamily};

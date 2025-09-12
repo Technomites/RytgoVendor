@@ -27,6 +27,7 @@ import SuccessModal from '../../Components/UISupport/SuccessModal';
 import { FontFamily } from '../../Assets/Fonts';
 import MyFormInputTile from '../../Components/UISupport/MyFormInputTile';
 import { BaseURL } from '../../Constants/BaseUrl';
+import { Safeareacontext } from '../../Constants/SafeAreaContext';
 const ForgotPassword = props => {
   const [successModal, setSuccessModat] = useState(false);
   const [loader, setLoader] = useState(false);
@@ -84,7 +85,10 @@ const ForgotPassword = props => {
       style={Styles.mainContainer}>
       <StatusBar backgroundColor="white" barStyle="dark-content" />
       <KeyboardAvoidingView>
-        <SafeAreaView>
+         <SafeAreaView style={{
+               paddingTop: Safeareacontext.top
+               
+             }}>
           <View
             style={{
               height: 50,

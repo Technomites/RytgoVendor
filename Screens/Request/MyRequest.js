@@ -8,6 +8,7 @@ import ListTile from '../../Components/UISupport/ListTile';
 import {useSelector, useDispatch} from 'react-redux';
 import * as ManageCarAction from '../../Store/Action/DataAction';
 import { FontFamily } from '../../Constants/Fonts';
+import { Safeareacontext } from '../../Constants/SafeAreaContext';
 const Top = createMaterialTopTabNavigator();
 
 const PropertyScreen = props => {
@@ -55,7 +56,7 @@ const PropertyScreen = props => {
               return (
                 <ListTile
                   onPress={() => {
-                    props.navigation.navigate('requestDetail', {
+                    props?.navigation?.navigate('requestDetail', {
                       reqData: itemData.item,
                     });
                   }}
@@ -89,9 +90,9 @@ const PropertyScreen = props => {
 };
 
 const MotorScreen = props => {
-  const carRequest = useSelector(state => state.data.carRequest);
+  const carRequest = useSelector(state => state?.data?.carRequest);
 
-  const userInfo = useSelector(state => state.auth.userInfo);
+  const userInfo = useSelector(state => state?.auth?.userInfo);
   const dispatch = useDispatch();
 
   const [page, setPage] = useState(1);
@@ -133,7 +134,7 @@ const MotorScreen = props => {
               return (
                 <ListTile
                   onPress={() => {
-                    props.navigation.navigate('requestDetail', {
+                    props?.navigation?.navigate('requestDetail', {
                       reqData: itemData.item,
                     });
                   }}
@@ -188,12 +189,16 @@ const TopNavigator = () => {
 const ManScreen = props => {
   const route = props?.route?.params?.route;
   return (
-    <SafeAreaView style={{flex: 1, backgroundColor: Colors.bgGray}}>
+    <SafeAreaView style={{flex: 1, backgroundColor: Colors.bgGray,
+
+      paddingTop: Safeareacontext.top
+
+    }}>
       <BackHeader
         title="CUSTOM REQUESTS"
         onPress={() => {
-          props.navigation.navigate('Properties');
-          props.navigation.navigate('Home');
+          props?.navigation?.navigate('Properties');
+          props?.navigation?.navigate('Home');
         }}
       />
       <Top.Navigator

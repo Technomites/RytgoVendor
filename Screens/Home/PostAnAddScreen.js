@@ -4,13 +4,17 @@ import { ScrollView } from 'react-native-gesture-handler'
 import Colors from "../../Constants/Colors"
 import BackHeader from '../../Components/UISupport/BackHeader'
 import { FontFamily } from '../../Constants/Fonts'
+import { Safeareacontext } from '../../Constants/SafeAreaContext'
+import FontAwesome from 'react-native-vector-icons/FontAwesome'
+
 const PostAnAddScreen = (props) => {
 
 
 
     return (
 
-        <SafeAreaView style={{ flex: 1, backgroundColor: Colors.bgGray }}>
+        <SafeAreaView style={{ flex: 1, backgroundColor: Colors.bgGray,      paddingTop: Safeareacontext.top
+         }}>
             <ScrollView style={{ height: "100%", width: "100%" }}>
                 <BackHeader title="Post an Ad" onPress={() => props.navigation.goBack()} />
                 {/* TOP HEADING */}
@@ -43,7 +47,7 @@ const PostAnAddScreen = (props) => {
                             rent: true
                         })} style={Styles.tileContainer}>
                             <View style={{ height: "100%", width: "30%", justifyContent: "center", alignItems: "center" }}>
-                                <Image style={{ height: 50, width: 50, resizeMode: "contain" }} source={require("../../Assets/Images/addrent.png")} />
+                                       <FontAwesome name="building-o" size={40} color={Colors.blue} solid />
                             </View>
                             <View style={{ height: "100%", width: "70%", justifyContent: "center" }}>
                                 <Text style={{ fontFamily: FontFamily.Bold, color: Colors.black, fontSize: 15 }}>Property for Rent</Text>
@@ -57,7 +61,7 @@ const PostAnAddScreen = (props) => {
                             rent: false
                         })} style={Styles.tileContainer}>
                             <View style={{ height: "100%", width: "30%", justifyContent: "center", alignItems: "center" }}>
-                                <Image style={{ height: 50, width: 50, resizeMode: "contain" }} source={require("../../Assets/Images/addBui.png")} />
+                                       <FontAwesome name="building-o" size={40} color={Colors.blue} solid />
                             </View>
                             <View style={{ height: "100%", width: "70%", justifyContent: "center" }}>
                                 <Text style={{ fontFamily: FontFamily.Bold, color: Colors.black, fontSize: 15 }}>Property for Sale</Text>
@@ -72,8 +76,9 @@ const PostAnAddScreen = (props) => {
                         <TouchableOpacity onPress={() => props.navigation.navigate("properRent", {
                             type: "car"
                         })} style={Styles.tileContainer}>
-                            <View style={{ height: "100%", width: "30%", justifyContent: "center", alignItems: "center" }}>
-                                <Image style={{ height: 50, width: 50, resizeMode: "contain" }} source={require("../../Assets/Images/adCar.png")} />
+                            <View style={{ height: "100%", width: "30%", justifyContent: "center", alignItems: "center", }}>
+                                
+                                       <FontAwesome style={{}} name="car" size={40} color={Colors.blue} solid />
                             </View>
                             <View style={{ height: "100%", width: "70%", justifyContent: "center" }}>
                                 <Text style={{ fontFamily: FontFamily.Bold, color: Colors.black, fontSize: 15 }}>Motors</Text>

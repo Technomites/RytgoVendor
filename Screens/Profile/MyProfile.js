@@ -10,6 +10,7 @@ import { useSelector, useDispatch } from "react-redux"
 import *as UserAction from "../../Store/Action/DataAction"
 import PopUpModel from "../../Components/UISupport/PopUpModel"
 import SuccessModal from "../../Components/UISupport/SuccessModal"
+import { Safeareacontext } from "../../Constants/SafeAreaContext"
 
 const MyProfile = props => {
 
@@ -85,7 +86,10 @@ const MyProfile = props => {
 
 
     return (
-        <SafeAreaView style={{ flex: 1, backgroundColor: Colors.bgGray }}>
+        <SafeAreaView style={{ flex: 1, backgroundColor: Colors.bgGray,
+paddingTop: Safeareacontext.top
+
+         }}>
             <ScrollView>
                 <BackHeader onPress={() => props.navigation.goBack()} title="My Profile" />
                 <View style={{ width: "100%", alignItems: "center" }}>

@@ -10,6 +10,7 @@ import {
   TouchableOpacity,
   StatusBar,
   Button,
+  Platform,
 } from 'react-native';
 import Color from '../../Constants/Colors';
 import MainHeader from '../../Components/UISupport/MainHeader';
@@ -26,6 +27,8 @@ import {
   NotificationListner,
 } from "../../Constants/PushNotificationHalper";
 import { FontFamily } from "../../Constants/Fonts"
+import { Safeareacontext } from '../../Constants/SafeAreaContext';
+import FontAwesome5Icon from 'react-native-vector-icons/FontAwesome5';
 const HomeScreen = props => {
   const userInfo = useSelector(state => state.auth.userInfo);
   const sessionExpire = useSelector(state => state.data.sessionExpire);
@@ -161,9 +164,20 @@ const HomeScreen = props => {
   // }, []);
 
   return (
-    <SafeAreaView style={{ flex: 1 }}>
-      <StatusBar backgroundColor="white" barStyle="dark-content" />
-      <View style={{ flex: 1, backgroundColor: Color.white }}>
+    <SafeAreaView style={{
+      flex: 1,
+
+
+    }}>
+      <StatusBar
+        barStyle="dark-content"
+        backgroundColor={Colors.white}
+      />
+      <View style={{ flex: 1, backgroundColor: Color.white,
+
+      paddingTop: Platform.OS === 'ios'?0: Safeareacontext.top
+
+       }}>
         {/* <Button
           title="Clear"
           onPress={() => {
@@ -265,10 +279,7 @@ const HomeScreen = props => {
                       alignItems: 'center',
 
                     }}>
-                    <Image
-                      source={require('../../Assets/Images/car.png')}
-                      style={{ height: 40, width: 40, resizeMode: 'contain' }}
-                    />
+                   <FontAwesome5Icon name="car" size={40} color={Colors.secColor} solid />
                   </View>
                   <View
                     style={{
@@ -305,10 +316,8 @@ const HomeScreen = props => {
                       justifyContent: 'center',
                       alignItems: 'center',
                     }}>
-                    <Image
-                      source={require('../../Assets/Images/building.png')}
-                      style={{ height: 40, width: 40, resizeMode: 'contain' }}
-                    />
+                     <FontAwesome5Icon name="building" size={40} color={Colors.secColor} solid />
+
                   </View>
                   <View
                     style={{
@@ -346,10 +355,8 @@ const HomeScreen = props => {
                       justifyContent: 'center',
                       alignItems: 'center',
                     }}>
-                    <Image
-                      source={require('../../Assets/Images/comment.png')}
-                      style={{ height: 40, width: 40, resizeMode: 'contain' }}
-                    />
+                                       <IoIcon name="chatbubble" size={40} color={Colors.secColor} solid />
+
                   </View>
                   <View
                     style={{

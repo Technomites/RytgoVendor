@@ -23,6 +23,7 @@ import IoIcon from '../../Components/Icon/IoIcon';
 import SuccessModal from '../../Components/UISupport/SuccessModal';
 import { FontFamily } from '../../Constants/Fonts';
 import MyFormInput from '../../Components/UISupport/MyFormInputTile';
+import { Safeareacontext } from '../../Constants/SafeAreaContext';
 const SignUpScreen = props => {
   const loader = useSelector(state => state.auth.loader);
   const resMessage = useSelector(state => state.auth.signUpMessage);
@@ -107,7 +108,10 @@ const SignUpScreen = props => {
       alwaysBounceVertical={false}
       alwaysBounceHorizontal={false}
       style={Styles.mainContainer}>
-      <SafeAreaView>
+      <SafeAreaView style={{
+        paddingTop: Safeareacontext.top
+        
+      }}>
         <View
           style={{
             height: 50,

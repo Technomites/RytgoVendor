@@ -19,6 +19,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { BaseURL } from '../../Constants/BaseUrl';
 import Loading from '../../Components/UISupport/Loader';
 import { FontFamily } from '../../Constants/Fonts';
+import { Safeareacontext } from '../../Constants/SafeAreaContext';
 const MyAlert = props => {
   const userInfo = useSelector(state => state.auth.userInfo);
   const allNotification = useSelector(state => state.data.allNotifiction);
@@ -137,7 +138,11 @@ const MyAlert = props => {
     );
   };
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: Colors.bgGray }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: Colors.bgGray ,
+
+                     paddingTop: Safeareacontext.top
+      
+    }}>
       <BackHeader title="My Alerts" onPress={() => props.navigation.goBack()} />
       <Loading successModalShown={load} />
       <View

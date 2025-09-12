@@ -10,5 +10,6 @@ export default {
   techGrey: 'grey',
   techBg: 'white',
   inputBg: '#8E7C7C14',
-  btnBgColor: "#226F65"
+  btnBgColor: "#226F65",
+  secColor:'#C7994A'
 };

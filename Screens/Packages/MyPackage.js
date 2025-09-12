@@ -25,6 +25,7 @@ import ValidPaymenModal from '../../Components/UISupport/ValidPaymenModal';
 import SuccessModal from '../../Components/UISupport/SuccessModal';
 import { BaseURL } from '../../Constants/BaseUrl';
 import { FontFamily } from '../../Constants/Fonts';
+import { Safeareacontext } from '../../Constants/SafeAreaContext';
 const MyPackage = props => {
   const userInfo = useSelector(state => state.auth.userInfo);
 
@@ -116,7 +117,10 @@ const MyPackage = props => {
   };
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: Colors.white }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: Colors.white,
+
+      paddingTop: Safeareacontext.top
+     }}>
       <ScrollView>
         <BackHeader
           onPress={() => props.navigation.goBack()}

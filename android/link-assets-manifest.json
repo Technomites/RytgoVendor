@@ -2,96 +2,112 @@
   "migIndex": 1,
   "data": [
     {
-      "path": "assets/fonts/Figtree-Black.ttf",
-      "sha1": "2336c6dd3185a86b37c298a18408fe91785028fb"
+      "path": "Assets/fonts/Montserrat-Black.ttf",
+      "sha1": "e9abe094b65469f6b6a373b543ab7030dc145c7c"
     },
     {
-      "path": "assets/fonts/Figtree-BlackItalic.ttf",
-      "sha1": "1f27b25a2204a39535d8420bd0316e626d7a008b"
+      "path": "Assets/fonts/Montserrat-BlackItalic.ttf",
+      "sha1": "3f86120ed3d28bb9aac0fed7a0290a0cfbeff531"
     },
     {
-      "path": "assets/fonts/Figtree-Bold.ttf",
-      "sha1": "82e096f1e69d1b880b3a0e7c28c03d54a56152c5"
+      "path": "Assets/fonts/Montserrat-Bold.ttf",
+      "sha1": "be7c1438070ab637e11716915e4e50903726dcc8"
     },
     {
-      "path": "assets/fonts/Figtree-BoldItalic.ttf",
-      "sha1": "d7c6a33a3ec4e1c0a118cff78797fb8a32aa0cba"
+      "path": "Assets/fonts/Montserrat-BoldItalic.ttf",
+      "sha1": "cd3789ae55cc702776afdd2fd1a81ae16c69fbf4"
     },
     {
-      "path": "assets/fonts/Figtree-ExtraBold.ttf",
-      "sha1": "d97c21729dc73543014923ccc5b9d5c4e02ebb09"
+      "path": "Assets/fonts/Montserrat-ExtraBold.ttf",
+      "sha1": "84f16776e2099d3b57d8ed239b76e6fa3284b2e7"
     },
     {
-      "path": "assets/fonts/Figtree-ExtraBoldItalic.ttf",
-      "sha1": "f450166b7f862a4e8c6c5756fcf2cfea007f547c"
+      "path": "Assets/fonts/Montserrat-ExtraBoldItalic.ttf",
+      "sha1": "96c173512f14118a97acf01279fa63bae70c6035"
     },
     {
-      "path": "assets/fonts/Figtree-Italic.ttf",
-      "sha1": "5bac80c960afa1c89c5f1db328630a316922eeb2"
+      "path": "Assets/fonts/Montserrat-ExtraLight.ttf",
+      "sha1": "cc7a24a862f1779bdbbf78a6984bb9ae9324a128"
     },
     {
-      "path": "assets/fonts/Figtree-Light.ttf",
-      "sha1": "e650daefaa97970d8daa8654b9a35a8a43de093a"
+      "path": "Assets/fonts/Montserrat-ExtraLightItalic.ttf",
+      "sha1": "b665a8fc9b6d2a4c89ac87fc480561c98bfff4f8"
     },
     {
-      "path": "assets/fonts/Figtree-LightItalic.ttf",
-      "sha1": "0b9903d83aaada5bf91d08251298abc7b6b539bd"
+      "path": "Assets/fonts/Montserrat-Italic.ttf",
+      "sha1": "aef4e6a1af1849644ce1e934b4ab9059e916d887"
     },
     {
-      "path": "assets/fonts/Figtree-Medium.ttf",
-      "sha1": "e3688e24751e01c1bed1fb655fae79316735de2d"
+      "path": "Assets/fonts/Montserrat-Light.ttf",
+      "sha1": "3397cd98e51365c89e95cd1130e0141bda5051de"
     },
     {
-      "path": "assets/fonts/Figtree-MediumItalic.ttf",
-      "sha1": "990e32528a6e7de339ecf28f627174d42c0facdb"
+      "path": "Assets/fonts/Montserrat-LightItalic.ttf",
+      "sha1": "581acfc143788f70c489e9e08b6009baf90adf8e"
     },
     {
-      "path": "assets/fonts/Figtree-Regular.ttf",
-      "sha1": "b971ba6c123ca42604ae74840afd8e1ade6926ea"
+      "path": "Assets/fonts/Montserrat-Medium.ttf",
+      "sha1": "77f3553415d858c653baea45aacab20196776334"
     },
     {
-      "path": "assets/fonts/Figtree-SemiBold.ttf",
-      "sha1": "17f9c71ec7a0e79fe74b6e0f14b64f3b55dae9cb"
+      "path": "Assets/fonts/Montserrat-MediumItalic.ttf",
+      "sha1": "3a200dbe415e421ecaca38532d19380920217c39"
     },
     {
-      "path": "assets/fonts/Figtree-SemiBoldItalic.ttf",
-      "sha1": "3805bce21c6002b0defe2fa73fb89e7d0a02a84d"
+      "path": "Assets/fonts/Montserrat-Regular.ttf",
+      "sha1": "ec13ef1f2c99f8780d6f2eb3f9f27ef89f30161b"
     },
     {
-      "path": "assets/fonts/Outfit-Black.ttf",
-      "sha1": "51e4964fd4b0072e2f90fd3b1d9883a142130e74"
+      "path": "Assets/fonts/Montserrat-SemiBold.ttf",
+      "sha1": "79f74616d68b87d6cf89798fe72259036326567a"
     },
     {
-      "path": "assets/fonts/Outfit-Bold.ttf",
-      "sha1": "dd5f4206d22d8b093a53a2f6423ed532fd656aeb"
+      "path": "Assets/fonts/Montserrat-SemiBoldItalic.ttf",
+      "sha1": "8893c19f6daee4348d1e8b2ce0bd4698a5dca0e5"
     },
     {
-      "path": "assets/fonts/Outfit-ExtraBold.ttf",
-      "sha1": "89c8a2a10ed63a324be105656649546f0be6d8a1"
+      "path": "Assets/fonts/Montserrat-Thin.ttf",
+      "sha1": "550e6e1d992369e97e9f00aa71ae482a6a6326d7"
     },
     {
-      "path": "assets/fonts/Outfit-ExtraLight.ttf",
-      "sha1": "848a413a4d79c8bff066416dfa3771485d0c4ec9"
+      "path": "Assets/fonts/Montserrat-ThinItalic.ttf",
+      "sha1": "8d95f4a0cf9f73f72f6b436817a8d434f7ae4e65"
     },
     {
-      "path": "assets/fonts/Outfit-Light.ttf",
-      "sha1": "77822e4eba7d32622113003e21b0d17ed7a8f528"
+      "path": "Assets/fonts/Ubuntu-B.ttf",
+      "sha1": "a1927bc9f5124ddc4411424983e6671117af90b5"
     },
     {
-      "path": "assets/fonts/Outfit-Medium.ttf",
-      "sha1": "accdc4a94720336a48bb6fd31759bbfa268f902e"
+      "path": "Assets/fonts/Ubuntu-BI.ttf",
+      "sha1": "cdbccc7f4e16672c9367af9cf5fc56b91b682a4b"
     },
     {
-      "path": "assets/fonts/Outfit-Regular.ttf",
-      "sha1": "7724dc42adf3e8caa9a1f7f64bc02016f201f550"
+      "path": "Assets/fonts/Ubuntu-C.ttf",
+      "sha1": "8909bb7bcf43c0429df2ab07ea5110409a5f39e0"
     },
     {
-      "path": "assets/fonts/Outfit-SemiBold.ttf",
-      "sha1": "8e01f823ad73ea02ad96c676497c3e050d6e9e90"
+      "path": "Assets/fonts/Ubuntu-L.ttf",
+      "sha1": "a25fe116f6ac4b6efe318e3bc8a9ce3b58824412"
     },
     {
-      "path": "assets/fonts/Outfit-Thin.ttf",
-      "sha1": "09459262264acfe2f30db5fcf2de63e6115449b6"
+      "path": "Assets/fonts/Ubuntu-LI.ttf",
+      "sha1": "d9d29dba409c4784fd2ab50141282832950af2e7"
+    },
+    {
+      "path": "Assets/fonts/Ubuntu-M.ttf",
+      "sha1": "f68d1e3fe86977f782c27b2992091d68cb07ef8d"
+    },
+    {
+      "path": "Assets/fonts/Ubuntu-MI.ttf",
+      "sha1": "c7f84933f011e5f13631908c0d23c3bbf07d1fe6"
+    },
+    {
+      "path": "Assets/fonts/Ubuntu-R.ttf",
+      "sha1": "ef32ba2c56fcb8c6e5a8e7f57985a8be01484524"
+    },
+    {
+      "path": "Assets/fonts/Ubuntu-RI.ttf",
+      "sha1": "5fdb037d70fd1b35a5ed493efb02e9e158432a8d"
     }
   ]
 }

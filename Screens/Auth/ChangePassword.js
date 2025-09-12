@@ -18,6 +18,7 @@ import PopUpModel from '../../Components/UISupport/PopUpModel';
 import SuccessModal from '../../Components/UISupport/SuccessModal';
 import MyFormInputTile from '../../Components/UISupport/MyFormInputTile';
 import { FontFamily } from '../../Constants/Fonts';
+import { Safeareacontext } from '../../Constants/SafeAreaContext';
 const ChangePassword = props => {
   const userToken = useSelector(state => state.auth.userInfo?.access_token);
   const loader = useSelector(state => state.auth.loader);
@@ -83,7 +84,11 @@ const ChangePassword = props => {
   };
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: Colors.bgGray }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: Colors.bgGray,
+
+                     paddingTop: Safeareacontext.top
+      
+     }}>
       <ScrollView>
         <BackHeader
           title="Change Password"
