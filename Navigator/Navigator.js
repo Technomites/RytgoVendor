@@ -479,7 +479,7 @@ const DrawerNavigator = props => {
             </Text>
           ),
         }}
-        name="My Requests"
+        name="MyRequests"
         component={MyRequest}
       />
 

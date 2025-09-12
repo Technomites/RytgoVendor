@@ -415,7 +415,7 @@ const HomeScreen = props => {
             </View>
 
             <TouchableOpacity
-              onPress={() => props.navigation.navigate('My Requests')}
+              onPress={() => props.navigation.navigate('MyRequests')}
               style={{ height: '100%', justifyContent: 'center' }}>
               <Text
                 style={{ fontFamily: FontFamily.Bold, color: Color.blue, fontSize: 13 }}>

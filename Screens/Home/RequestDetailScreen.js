@@ -30,7 +30,7 @@ const RequestDetailScreen = props => {
     <SafeAreaView style={{flex: 1, backgroundColor: Colors.bgGray}}>
       <ScrollView showsVerticalScrollIndicator={false}>
         <BackHeader
-          onPress={() => props.navigation.navigate('My Requests')}
+          onPress={() => props.navigation.navigate('MyRequests')}
           title="Request Details"
         />
         <View style={{width: '100%', alignItems: 'center'}}>
