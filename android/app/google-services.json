@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "670223529774",
-    "project_id": "fougito-vendor",
-    "storage_bucket": "fougito-vendor.appspot.com"
+    "project_number": "934691089264",
+    "project_id": "rytgovendor",
+    "storage_bucket": "rytgovendor.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:670223529774:android:b5fd1d59f5937209abecbf",
+        "mobilesdk_app_id": "1:934691089264:android:2c4d14602673beb7d7fdb5",
         "android_client_info": {
           "package_name": "com.rytgovendor"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDORRpIwPlHlz7g2PCeKooUVnkyrL9vxCw"
+          "current_key": "AIzaSyBf5IM0bX4RHAakuHME7HQeu5lLt64zk6s"
         }
       ],
       "services": {

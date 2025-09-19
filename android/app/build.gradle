@@ -88,10 +88,10 @@ android {
     }
   signingConfigs {
           release {
-      storeFile file('fougitovendor.keystore')
-      storePassword '1234@Find'
-      keyAlias 'my-key-alias'
-      keyPassword '1234@Find'
+      storeFile file('rytgovendor-key.keystore')
+            storePassword '123456'
+            keyAlias 'my-key-alias'
+            keyPassword '123456'
     }
         
         debug {
@@ -107,7 +107,7 @@ android {
         }
         release {
             // see https://reactnative.dev/docs/signed-apk-android.
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
