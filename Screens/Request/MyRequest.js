@@ -203,7 +203,7 @@ const ManScreen = props => {
       />
       <Top.Navigator
         initialRouteName={route ? route : null}
-        tabBarOptions={{
+        screenOptions={{
           activeTintColor: Colors.blue,
           tabStyle: {height: 50},
           labelStyle: {fontSize: 12, fontWeight: 'bold', letterSpacing: 1},

@@ -40,7 +40,7 @@ const AccountDeleteWarning = props => {
                 width: '95%',
                 fontFamily: FontFamily.Medium
               }}>
-              {"Are you sure you want to delete this accoung?"}
+              {"Are you sure you want to delete this account?"}
             </Text>
             <View style={{ width: '90%', marginTop: 15, flexDirection: "row", justifyContent: "space-between" }}>
               <View style={{ width: "45%", }}>
