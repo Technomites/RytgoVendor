@@ -1,11 +1,11 @@
-import React, {useState, useEffect} from 'react';
-import {View, SafeAreaView, FlatList, StyleSheet, Text} from 'react-native';
+import React, { useState, useEffect } from 'react';
+import { View, SafeAreaView, FlatList, StyleSheet, Text } from 'react-native';
 import BackHeader from '../../Components/UISupport/BackHeader';
 import Colors from '../../Constants/Colors';
-import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
-import {HomeScreenListData} from '../../Data/DummyData';
+import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
+import { HomeScreenListData } from '../../Data/DummyData';
 import ListTile from '../../Components/UISupport/ListTile';
-import {useSelector, useDispatch} from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import * as ManageCarAction from '../../Store/Action/DataAction';
 import { FontFamily } from '../../Constants/Fonts';
 import { Safeareacontext } from '../../Constants/SafeAreaContext';
@@ -42,9 +42,9 @@ const PropertyScreen = props => {
   };
 
   return (
-    <View style={{height: '100%', width: '100%', alignItems: 'center'}}>
+    <View style={{ height: '100%', width: '100%', alignItems: 'center' }}>
       {propertyReq?.length !== 0 ? (
-        <View style={{width: '90%', marginTop: 10, marginBottom: 10}}>
+        <View style={{ width: '90%', marginTop: 10, marginBottom: 10 }}>
           <FlatList
             onEndReached={() => setPage(page + 1)}
             showsVerticalScrollIndicator={false}
@@ -80,7 +80,7 @@ const PropertyScreen = props => {
             justifyContent: 'center',
             alignItems: 'center',
           }}>
-          <Text style={{fontSize: 15, color: Colors.blue}}>
+          <Text style={{ fontSize: 15, color: Colors.blue }}>
             No request found
           </Text>
         </View>
@@ -120,9 +120,9 @@ const MotorScreen = props => {
     fetchData();
   };
   return (
-    <View style={{height: '100%', width: '100%', alignItems: 'center'}}>
+    <View style={{ height: '100%', width: '100%', alignItems: 'center' }}>
       {carRequest?.length !== 0 ? (
-        <View style={{width: '90%', marginTop: 10, marginBottom: 10}}>
+        <View style={{ width: '90%', marginTop: 10, marginBottom: 10 }}>
           <FlatList
             onEndReached={() => setPage(page + 1)}
             showsVerticalScrollIndicator={false}
@@ -158,7 +158,7 @@ const MotorScreen = props => {
             justifyContent: 'center',
             alignItems: 'center',
           }}>
-          <Text style={{fontSize: 15, color: Colors.blue}}>
+          <Text style={{ fontSize: 15, color: Colors.blue }}>
             No request found
           </Text>
         </View>
@@ -171,16 +171,17 @@ const TopNavigator = () => {
   return (
     <Top.Navigator
       initialRouteName="Properties"
-      tabBarOptions={{
-        activeTintColor: Colors.blue,
-        tabStyle: {height: 50},
-        labelStyle: {fontSize: 12, fontWeight: 'bold', letterSpacing: 1},
-        indicatorStyle: {
+      screenOptions={{
+        tabBarActiveTintColor: Colors.blue,
+        tabBarLabelStyle: { fontSize: 12, fontWeight: 'bold', letterSpacing: 1 },
+        tabBarIndicatorStyle: {
           height: 3,
           backgroundColor: Colors.blue,
           borderRadius: 5,
         },
-      }}>
+        tabBarStyle: { height: 50 },
+      }}
+    >
       <Top.Screen name="Properties" component={PropertyScreen} />
       <Top.Screen name="Motors" component={MotorScreen} />
     </Top.Navigator>
@@ -189,7 +190,8 @@ const TopNavigator = () => {
 const ManScreen = props => {
   const route = props?.route?.params?.route;
   return (
-    <SafeAreaView style={{flex: 1, backgroundColor: Colors.bgGray,
+    <SafeAreaView style={{
+      flex: 1, backgroundColor: Colors.bgGray,
 
       paddingTop: Safeareacontext.top
 
@@ -204,15 +206,16 @@ const ManScreen = props => {
       <Top.Navigator
         initialRouteName={route ? route : null}
         screenOptions={{
-          activeTintColor: Colors.blue,
-          tabStyle: {height: 50},
-          labelStyle: {fontSize: 12, fontWeight: 'bold', letterSpacing: 1},
-          indicatorStyle: {
+          tabBarActiveTintColor: Colors.blue,
+          tabBarLabelStyle: { fontSize: 12, fontWeight: 'bold', letterSpacing: 1 },
+          tabBarIndicatorStyle: {
             height: 3,
             backgroundColor: Colors.blue,
             borderRadius: 5,
           },
-        }}>
+          tabBarStyle: { height: 50 },
+        }}
+      >
         <Top.Screen name="Properties" component={PropertyScreen} />
         <Top.Screen name="Motors" component={MotorScreen} />
       </Top.Navigator>
