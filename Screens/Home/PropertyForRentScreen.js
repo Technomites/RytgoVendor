@@ -7,6 +7,7 @@ import { rantAddList } from "../../Data/DummyData"
 import { BaseURL } from "../../Constants/BaseUrl"
 import { useSelector, useDispatch } from "react-redux"
 import { FontFamily } from '../../Constants/Fonts'
+import { Safeareacontext } from '../../Constants/SafeAreaContext'
 const PropertyForRentScreen = (props) => {
     const type = props.route.params.type
     const rent = props.route.params.rent
@@ -39,7 +40,10 @@ const PropertyForRentScreen = (props) => {
     }, [type])
 
     return (
-        <SafeAreaView style={{ flex: 1, backgroundColor: Colors.bgGray }}>
+        <SafeAreaView style={{ flex: 1, backgroundColor: Colors.bgGray,
+
+            paddingTop: Safeareacontext.top
+         }}>
             <ScrollView style={{ height: "100%", width: "100%" }}>
                 <BackHeader title="Post an Ad" onPress={() => props.navigation.goBack()} />
                 {/* TOP HEADING */}

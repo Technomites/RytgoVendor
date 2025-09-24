@@ -27,6 +27,7 @@ import MapView from 'react-native-maps';
 import { Marker } from 'react-native-maps';
 import { FontFamily } from '../../Constants/Fonts';
 import MapLocationContainer from '../../Components/UISupport/MapLocationContainer';
+import { Safeareacontext } from '../../Constants/SafeAreaContext';
 
 const PostAnAddStep4 = props => {
   const [successModelShow, setSuccessShow] = useState(false);
@@ -142,7 +143,12 @@ const PostAnAddStep4 = props => {
   };
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: Colors.bgGray }}>
+    <SafeAreaView style={{
+      flex: 1, backgroundColor: Colors.bgGray,
+
+      paddingTop: Safeareacontext.top
+
+    }}>
       <ScrollView style={{ height: '100%', width: '100%' }}>
         <BackHeader
           title="Post an Ad"
@@ -299,10 +305,15 @@ const PostAnAddStep4 = props => {
                             alignContent: 'center',
                             borderBottomColor: 'lightgray',
                             borderBottomWidth: 0.5,
-                            fontFamily: FontFamily.Light
+
+
 
                           }}>
-                          <Text>{item?.name}</Text>
+                          <Text style={{
+                            color: Colors.black,
+                            fontFamily: FontFamily.Medium,
+
+                          }}>{item?.name}</Text>
                         </TouchableOpacity>
                       );
                     }
@@ -352,7 +363,7 @@ const PostAnAddStep4 = props => {
                         borderBottomWidth: 0.5,
                         borderBottomColor: 'lightgray',
                       }}>
-                      <Text style={{ paddingVertical: 10, fontFamily: FontFamily.Light }}>
+                      <Text style={{ paddingVertical: 10, fontFamily: FontFamily.Medium,color:Colors.black }}>
                         {itemData.item.formatted_address}
                       </Text>
                     </TouchableOpacity>

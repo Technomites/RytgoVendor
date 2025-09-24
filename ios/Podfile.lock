@@ -135,7 +135,7 @@ PODS:
   - hermes-engine/Pre-built (0.73.6)
   - libevent (2.1.12)
   - MyFatoorah (2.0.161)
-  - myfatoorah-reactnative (1.3.0):
+  - myfatoorah-reactnative (1.3.1):
     - MyFatoorah (~> 2.0.155)
     - React
     - React-Core
@@ -1213,7 +1213,7 @@ PODS:
     - React-Core
   - RNCMaskedView (0.1.11):
     - React
-  - RNCPicker (2.11.1):
+  - RNCPicker (2.11.2):
     - React-Core
   - RNCPushNotificationIOS (1.11.0):
     - React-Core
@@ -1519,7 +1519,7 @@ SPEC CHECKSUMS:
   hermes-engine: 9cecf9953a681df7556b8cc9c74905de8f3293c0
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   MyFatoorah: 3e8f229fe02ef0ea91420972e949375ebb454b16
-  myfatoorah-reactnative: f9a0a5b2b14d244ba78320785a72337955913088
+  myfatoorah-reactnative: 9a9d5c90b81d05bc61366a32614d8afdd3d3b2b4
   nanopb: 438bc412db1928dac798aa6fd75726007be04262
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   RCT-Folly: 7169b2b1c44399c76a47b5deaaba715eeeb476c0
@@ -1572,7 +1572,7 @@ SPEC CHECKSUMS:
   RNCAsyncStorage: ec53e44dc3e75b44aa2a9f37618a49c3bc080a7a
   RNCCheckbox: 471ebdc33884c084f362615c1ef3507496cc07f1
   RNCMaskedView: 0e1bc4bfa8365eba5fbbb71e07fbdc0555249489
-  RNCPicker: 55f4c211f69edb5c7a0faf85933e36c3621ebf64
+  RNCPicker: a00c4466b3cf97d8f97f68627fe12301a3609707
   RNCPushNotificationIOS: 64218f3c776c03d7408284a819b2abfda1834bc8
   RNDateTimePicker: 4f3c4dbd4f908be32ec8c93f086e8924bd4a2e07
   RNDeviceInfo: 59344c19152c4b2b32283005f9737c5c64b42fba

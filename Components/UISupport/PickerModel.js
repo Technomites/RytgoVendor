@@ -12,6 +12,7 @@ import {
 import IoIcon from '../Icon/IoIcon';
 import AuthButton from "../../Components/UISupport/AuthButton"
 import { FontFamily } from '../../Constants/Fonts';
+import Colors from '../../Constants/Colors';
 const App = props => {
   const [modalVisible, setModalVisible] = useState(false);
 
@@ -56,8 +57,12 @@ const App = props => {
                 }}>
                 <View style={{ width: '85%' }}>
                   <TextInput
+                  placeholderTextColor={'gray'}
                     onChangeText={props.pickerSearch}
-                    style={{ flex: 1, fontFamily: FontFamily.Medium }}
+                    style={{ flex: 1, fontFamily: FontFamily.Medium,
+
+                      color:Colors.black
+                     }}
                     placeholder="Type here"
                   />
                 </View>
@@ -69,7 +74,7 @@ const App = props => {
                     justifyContent: 'center',
                     alignItems: 'center',
                   }}>
-                  <IoIcon name="search" size={15} color="gray" />
+                  <IoIcon name="search" size={15} color="black" />
                 </View>
               </View>
               <View style={{ height: '80%', width: '100%', marginTop: 10 }}>

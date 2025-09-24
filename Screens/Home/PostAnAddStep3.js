@@ -18,6 +18,7 @@ import PopUpModel from '../../Components/UISupport/PopUpModel';
 import { actions, RichEditor, RichToolbar } from 'react-native-pell-rich-editor';
 import { FontFamily } from '../../Constants/Fonts';
 import MyFormInputTile from "../../Components/UISupport/MyFormInputTile"
+import { Safeareacontext } from '../../Constants/SafeAreaContext';
 const PostAnAddStep3 = props => {
   const type = props.route.params.type;
 
@@ -82,7 +83,10 @@ const PostAnAddStep3 = props => {
   };
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: Colors.bgGray }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: Colors.bgGray,
+                  paddingTop: Safeareacontext.top
+      
+     }}>
       <ScrollView
         showsVerticalScrollIndicator={false}
         style={{ height: '100%', width: '100%' }}>

@@ -39,6 +39,7 @@ import { YearsData } from '../../Data/DummyData';
 import PickerModelContainer from '../../Components/UISupport/PickerModelContainer';
 import PickerModel from '../../Components/UISupport/PickerModel';
 import { FontFamily } from '../../Constants/Fonts';
+import { Safeareacontext } from '../../Constants/SafeAreaContext';
 const PostAnAddStep5 = props => {
   const data = props.route.params.data ? props.route.params.data : null;
   const AddCatId = useSelector(state => state.add.addCatId);
@@ -365,7 +366,10 @@ const PostAnAddStep5 = props => {
   };
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: Colors.bgGray }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: Colors.bgGray,
+            paddingTop: Safeareacontext.top
+      
+     }}>
       <ScrollView
         showsVerticalScrollIndicator={false}
         style={{ height: '100%', width: '100%' }}>
@@ -507,7 +511,7 @@ const PostAnAddStep5 = props => {
                           borderBottomColor: 'lightgray',
                           borderBottomWidth: 0.5,
                         }}>
-                        <Text style={{ fontFamily: FontFamily.Medium }}>{item.name}</Text>
+                        <Text style={{ fontFamily: FontFamily.Medium ,color:Colors.black}}>{item.name}</Text>
                       </TouchableOpacity>
                     );
                   }}

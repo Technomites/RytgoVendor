@@ -500,7 +500,7 @@ const DrawerNavigator = props => {
               width: "13%",
               justifyContent: "center", alignItems: "flex-start",
             }}>
-              <IoIcon name="md-gift-outline" size={22} color={Colors.blue} />
+              <IoIcon name="gift-outline" size={22} color={Colors.blue} />
             </View>
           ),
           drawerLabel: () => (

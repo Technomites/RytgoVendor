@@ -197,7 +197,7 @@ const ManScreen = props => {
 
     }}>
       <BackHeader
-        title="CUSTOM REQUESTS"
+        title="CUSTOMER REQUESTS"
         onPress={() => {
           props?.navigation?.navigate('Properties');
           props?.navigation?.navigate('Home');

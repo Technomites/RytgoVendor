@@ -13,6 +13,7 @@ import { TouchableOpacity } from 'react-native-gesture-handler';
 import * as DataAction from '../../Store/Action/DataAction';
 import PopUpModel from '../../Components/UISupport/PopUpModel';
 import { FontFamily } from '../../Constants/Fonts';
+import { Safeareacontext } from '../../Constants/SafeAreaContext';
 const AddsPropertyFeatureScreen = props => {
   const prevFormData = props.route.params.formData;
   const update = props.route.params.update;
@@ -71,7 +72,11 @@ const AddsPropertyFeatureScreen = props => {
   };
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: Colors.bgGray }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: Colors.bgGray,
+
+                  paddingTop: Safeareacontext.top
+      
+     }}>
       <ScrollView showsVerticalScrollIndicator={false}>
         <BackHeader
           title="Post an Ad"
