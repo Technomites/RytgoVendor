@@ -166,7 +166,7 @@ const MyPackage = props => {
                   }}>
                   {!item.isSelected && (
                     <IoIcon
-                      name="ios-checkmark-circle"
+                      name="checkmark-circle"
                       size={25}
                       color={selected === item.id ? Colors.blue : Colors.bgGray}
                     />
