@@ -217,7 +217,7 @@ const HomeScreen = props => {
                 borderRadius: 50,
               }}>
               {
-                console.log(userInformation?.image, "userInformation?.image")
+                console.log(userInformation, "userInformation?.image")
               }
               <Image
                 source={{

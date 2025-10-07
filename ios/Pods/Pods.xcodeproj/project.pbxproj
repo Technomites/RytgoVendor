@@ -4516,11 +4516,11 @@
 		46EB2E000252D0 /* react-native-webview-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000252C0 /* react-native-webview-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46EB2E00025310 /* react-native-webview-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00025300 /* react-native-webview-dummy.m */; };
 		46EB2E000253B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E0000E0E0 /* Foundation.framework */; };
-		46EB2E00025420 /* Pods-FougitoVendor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00025410 /* Pods-FougitoVendor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00025480 /* Pods-FougitoVendor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00025470 /* Pods-FougitoVendor-dummy.m */; };
+		46EB2E00025420 /* Pods-Rytgo Vendor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00025410 /* Pods-Rytgo Vendor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00025480 /* Pods-Rytgo Vendor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00025470 /* Pods-Rytgo Vendor-dummy.m */; };
 		46EB2E00025520 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E0000E0E0 /* Foundation.framework */; };
-		46EB2E00025590 /* Pods-FougitoVendor-FougitoVendorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00025580 /* Pods-FougitoVendor-FougitoVendorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000255F0 /* Pods-FougitoVendor-FougitoVendorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000255E0 /* Pods-FougitoVendor-FougitoVendorTests-dummy.m */; };
+		46EB2E00025590 /* Pods-Rytgo Vendor-Rytgo VendorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00025580 /* Pods-Rytgo Vendor-Rytgo VendorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000255F0 /* Pods-Rytgo Vendor-Rytgo VendorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000255E0 /* Pods-Rytgo Vendor-Rytgo VendorTests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -10263,6 +10263,7 @@
 		37592FDAD45752511010F4B06AC57355 /* React-cxxreact */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "React-cxxreact"; path = cxxreact.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39D0105B481E5FB78C661496BD63B8A5 /* React-RCTAppDelegate */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "React-RCTAppDelegate"; path = React_RCTAppDelegate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AEA4A114C08533A2C0F8E039A4C5EB9 /* RNImageCropPicker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RNImageCropPicker; path = RNImageCropPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1B9C12D7E08AF0AD64DD9CE536B32F /* Pods-Rytgo Vendor */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Rytgo Vendor"; path = Pods_Rytgo_Vendor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA7A9404CCDD6BA22C97F8348CE3209 /* glog */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = glog; path = glog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCCC9C42EB3E07CFD81800EC8A2515D /* RNImageCropPicker-QBImagePicker */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "RNImageCropPicker-QBImagePicker"; path = QBImagePicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F238BB22C5201CE689CAF2F766AED95 /* PromisesObjC-FBLPromises_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "PromisesObjC-FBLPromises_Privacy"; path = FBLPromises_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -14060,26 +14061,26 @@
 		46EB2E000252E0 /* react-native-webview-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "react-native-webview-Info.plist"; sourceTree = "<group>"; };
 		46EB2E000252F0 /* react-native-webview-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "react-native-webview-prefix.pch"; sourceTree = "<group>"; };
 		46EB2E00025300 /* react-native-webview-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "react-native-webview-dummy.m"; sourceTree = "<group>"; };
-		46EB2E000253D0 /* Pods-FougitoVendor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FougitoVendor.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E000253E0 /* Pods-FougitoVendor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FougitoVendor.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E000253F0 /* Pods-FougitoVendor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FougitoVendor-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00025400 /* Pods-FougitoVendor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FougitoVendor.modulemap"; sourceTree = "<group>"; };
-		46EB2E00025410 /* Pods-FougitoVendor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FougitoVendor-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E00025430 /* Pods-FougitoVendor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FougitoVendor-frameworks.sh"; sourceTree = "<group>"; };
-		46EB2E00025440 /* Pods-FougitoVendor-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FougitoVendor-resources.sh"; sourceTree = "<group>"; };
-		46EB2E00025450 /* Pods-FougitoVendor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FougitoVendor-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E00025460 /* Pods-FougitoVendor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FougitoVendor-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E00025470 /* Pods-FougitoVendor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FougitoVendor-dummy.m"; sourceTree = "<group>"; };
-		46EB2E00025540 /* Pods-FougitoVendor-FougitoVendorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FougitoVendor-FougitoVendorTests.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00025550 /* Pods-FougitoVendor-FougitoVendorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FougitoVendor-FougitoVendorTests.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00025560 /* Pods-FougitoVendor-FougitoVendorTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FougitoVendor-FougitoVendorTests-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00025570 /* Pods-FougitoVendor-FougitoVendorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FougitoVendor-FougitoVendorTests.modulemap"; sourceTree = "<group>"; };
-		46EB2E00025580 /* Pods-FougitoVendor-FougitoVendorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FougitoVendor-FougitoVendorTests-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E000255A0 /* Pods-FougitoVendor-FougitoVendorTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FougitoVendor-FougitoVendorTests-frameworks.sh"; sourceTree = "<group>"; };
-		46EB2E000255B0 /* Pods-FougitoVendor-FougitoVendorTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FougitoVendor-FougitoVendorTests-resources.sh"; sourceTree = "<group>"; };
-		46EB2E000255C0 /* Pods-FougitoVendor-FougitoVendorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FougitoVendor-FougitoVendorTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E000255D0 /* Pods-FougitoVendor-FougitoVendorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FougitoVendor-FougitoVendorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E000255E0 /* Pods-FougitoVendor-FougitoVendorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FougitoVendor-FougitoVendorTests-dummy.m"; sourceTree = "<group>"; };
+		46EB2E000253D0 /* Pods-Rytgo Vendor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rytgo Vendor.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E000253E0 /* Pods-Rytgo Vendor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rytgo Vendor.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E000253F0 /* Pods-Rytgo Vendor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rytgo Vendor-Info.plist"; sourceTree = "<group>"; };
+		46EB2E00025400 /* Pods-Rytgo Vendor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rytgo Vendor.modulemap"; sourceTree = "<group>"; };
+		46EB2E00025410 /* Pods-Rytgo Vendor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rytgo Vendor-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00025430 /* Pods-Rytgo Vendor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rytgo Vendor-frameworks.sh"; sourceTree = "<group>"; };
+		46EB2E00025440 /* Pods-Rytgo Vendor-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rytgo Vendor-resources.sh"; sourceTree = "<group>"; };
+		46EB2E00025450 /* Pods-Rytgo Vendor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rytgo Vendor-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E00025460 /* Pods-Rytgo Vendor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rytgo Vendor-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E00025470 /* Pods-Rytgo Vendor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rytgo Vendor-dummy.m"; sourceTree = "<group>"; };
+		46EB2E00025540 /* Pods-Rytgo Vendor-Rytgo VendorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rytgo Vendor-Rytgo VendorTests.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00025550 /* Pods-Rytgo Vendor-Rytgo VendorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rytgo Vendor-Rytgo VendorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00025560 /* Pods-Rytgo Vendor-Rytgo VendorTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rytgo Vendor-Rytgo VendorTests-Info.plist"; sourceTree = "<group>"; };
+		46EB2E00025570 /* Pods-Rytgo Vendor-Rytgo VendorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rytgo Vendor-Rytgo VendorTests.modulemap"; sourceTree = "<group>"; };
+		46EB2E00025580 /* Pods-Rytgo Vendor-Rytgo VendorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rytgo Vendor-Rytgo VendorTests-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E000255A0 /* Pods-Rytgo Vendor-Rytgo VendorTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rytgo Vendor-Rytgo VendorTests-frameworks.sh"; sourceTree = "<group>"; };
+		46EB2E000255B0 /* Pods-Rytgo Vendor-Rytgo VendorTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rytgo Vendor-Rytgo VendorTests-resources.sh"; sourceTree = "<group>"; };
+		46EB2E000255C0 /* Pods-Rytgo Vendor-Rytgo VendorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rytgo Vendor-Rytgo VendorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E000255D0 /* Pods-Rytgo Vendor-Rytgo VendorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rytgo Vendor-Rytgo VendorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E000255E0 /* Pods-Rytgo Vendor-Rytgo VendorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rytgo Vendor-Rytgo VendorTests-dummy.m"; sourceTree = "<group>"; };
 		47C581450CDB4A6111CB97EEE0711A8C /* FirebaseInstallations-FirebaseInstallations_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "FirebaseInstallations-FirebaseInstallations_Privacy"; path = FirebaseInstallations_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB03FD262B678178A44272143846563 /* FirebaseCoreInternal-FirebaseCoreInternal_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "FirebaseCoreInternal-FirebaseCoreInternal_Privacy"; path = FirebaseCoreInternal_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B5347C9A6E93B7D4CFC3673BA6FB7E /* RNScreens */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RNScreens; path = RNScreens.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -14095,7 +14096,6 @@
 		6771D231F4C8C5976470A369C474B32E /* React-CoreModules */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "React-CoreModules"; path = CoreModules.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ED2C07E6AE77BBD9A6856E523EF6A06 /* React-debug */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "React-debug"; path = React_debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FFB7B2992BB53405E6B771A5BA1E97D /* DoubleConversion */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DoubleConversion; path = DoubleConversion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		708153F84882458F056A5FF356CC429E /* Pods-FougitoVendor */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FougitoVendor"; path = Pods_FougitoVendor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72DE4BF3FB9CE0858E90F96FEF8A53AE /* RNDateTimePicker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RNDateTimePicker; path = RNDateTimePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7862C607B7BE0510C2D65193F9B4B4F9 /* TOCropViewController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TOCropViewController; path = TOCropViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		788C90A6D32849B165847A5568DF502A /* myfatoorah-reactnative */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "myfatoorah-reactnative"; path = myfatoorah_reactnative.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -14114,6 +14114,7 @@
 		AEF1DC80F0EB62580B81D18786BAF924 /* FirebaseCoreExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FirebaseCoreExtension; path = FirebaseCoreExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B058F035CFD84ECBF8414E4EAE5834FC /* react-native-video */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "react-native-video"; path = react_native_video.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B6501341FD6783C6874C54AB31A9CF /* FirebaseMessaging-FirebaseMessaging_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "FirebaseMessaging-FirebaseMessaging_Privacy"; path = FirebaseMessaging_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28354A996E810069556F3ED942E863B /* Pods-Rytgo Vendor-Rytgo VendorTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Rytgo Vendor-Rytgo VendorTests"; path = Pods_Rytgo_Vendor_Rytgo_VendorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleUtilities; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7610E9FDE749C16C0B1CDAAF3B2DDC2 /* React-utils */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "React-utils"; path = React_utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8CD4B9B578CE9FA38114B638C9CAA78 /* RNCMaskedView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RNCMaskedView; path = RNCMaskedView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -14121,7 +14122,6 @@
 		C02EAF482D8B4DE45E3A58A25AE1FA91 /* React-jserrorhandler */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "React-jserrorhandler"; path = React_jserrorhandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A919103EAC9813D236486C34FC0A21 /* React-RCTVibration */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "React-RCTVibration"; path = RCTVibration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39B1380F02A89DFA03B85CD13C7CF6E /* RNDeviceInfo-RNDeviceInfoPrivacyInfo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "RNDeviceInfo-RNDeviceInfoPrivacyInfo"; path = RNDeviceInfoPrivacyInfo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		C53399DDD5FDD63B28B1FD9937251093 /* Pods-FougitoVendor-FougitoVendorTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FougitoVendor-FougitoVendorTests"; path = Pods_FougitoVendor_FougitoVendorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C777CF2FB1E39A45CBBDB54E8693F471 /* RNReanimated */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = RNReanimated; path = libRNReanimated.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C941106D9D54AE237C5110F5638389AC /* React-Mapbuffer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "React-Mapbuffer"; path = React_Mapbuffer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA45A2349847B8CEAC9ABF565A04BD0 /* React-ImageManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "React-ImageManager"; path = React_ImageManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -14894,8 +14894,8 @@
 				788C90A6D32849B165847A5568DF502A /* myfatoorah-reactnative */,
 				06FC5C9CF96D60C50FCD47D339C91951 /* nanopb */,
 				3227F3FC45681D7CEE5D1355A532398A /* nanopb-nanopb_Privacy */,
-				708153F84882458F056A5FF356CC429E /* Pods-FougitoVendor */,
-				C53399DDD5FDD63B28B1FD9937251093 /* Pods-FougitoVendor-FougitoVendorTests */,
+				3C1B9C12D7E08AF0AD64DD9CE536B32F /* Pods-Rytgo Vendor */,
+				B28354A996E810069556F3ED942E863B /* Pods-Rytgo Vendor-Rytgo VendorTests */,
 				3347A1AB6546F0A3977529B8F199DC41 /* PromisesObjC */,
 				3F238BB22C5201CE689CAF2F766AED95 /* PromisesObjC-FBLPromises_Privacy */,
 				1936453FF2A7E3A13063C4917C4D5598 /* RCT-Folly */,
@@ -14976,8 +14976,8 @@
 		46EB2E00000070 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000253C0 /* Pods-FougitoVendor */,
-				46EB2E00025530 /* Pods-FougitoVendor-FougitoVendorTests */,
+				46EB2E000253C0 /* Pods-Rytgo Vendor */,
+				46EB2E00025530 /* Pods-Rytgo Vendor-Rytgo VendorTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -22468,40 +22468,40 @@
 			path = "../../ios/Pods/Target Support Files/react-native-webview";
 			sourceTree = "<group>";
 		};
-		46EB2E000253C0 /* Pods-FougitoVendor */ = {
+		46EB2E000253C0 /* Pods-Rytgo Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00025400 /* Pods-FougitoVendor.modulemap */,
-				46EB2E00025460 /* Pods-FougitoVendor-acknowledgements.markdown */,
-				46EB2E00025450 /* Pods-FougitoVendor-acknowledgements.plist */,
-				46EB2E00025470 /* Pods-FougitoVendor-dummy.m */,
-				46EB2E00025430 /* Pods-FougitoVendor-frameworks.sh */,
-				46EB2E000253F0 /* Pods-FougitoVendor-Info.plist */,
-				46EB2E00025440 /* Pods-FougitoVendor-resources.sh */,
-				46EB2E00025410 /* Pods-FougitoVendor-umbrella.h */,
-				46EB2E000253E0 /* Pods-FougitoVendor.debug.xcconfig */,
-				46EB2E000253D0 /* Pods-FougitoVendor.release.xcconfig */,
+				46EB2E00025400 /* Pods-Rytgo Vendor.modulemap */,
+				46EB2E00025460 /* Pods-Rytgo Vendor-acknowledgements.markdown */,
+				46EB2E00025450 /* Pods-Rytgo Vendor-acknowledgements.plist */,
+				46EB2E00025470 /* Pods-Rytgo Vendor-dummy.m */,
+				46EB2E00025430 /* Pods-Rytgo Vendor-frameworks.sh */,
+				46EB2E000253F0 /* Pods-Rytgo Vendor-Info.plist */,
+				46EB2E00025440 /* Pods-Rytgo Vendor-resources.sh */,
+				46EB2E00025410 /* Pods-Rytgo Vendor-umbrella.h */,
+				46EB2E000253E0 /* Pods-Rytgo Vendor.debug.xcconfig */,
+				46EB2E000253D0 /* Pods-Rytgo Vendor.release.xcconfig */,
 			);
-			name = "Pods-FougitoVendor";
-			path = "Target Support Files/Pods-FougitoVendor";
+			name = "Pods-Rytgo Vendor";
+			path = "Target Support Files/Pods-Rytgo Vendor";
 			sourceTree = "<group>";
 		};
-		46EB2E00025530 /* Pods-FougitoVendor-FougitoVendorTests */ = {
+		46EB2E00025530 /* Pods-Rytgo Vendor-Rytgo VendorTests */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00025570 /* Pods-FougitoVendor-FougitoVendorTests.modulemap */,
-				46EB2E000255D0 /* Pods-FougitoVendor-FougitoVendorTests-acknowledgements.markdown */,
-				46EB2E000255C0 /* Pods-FougitoVendor-FougitoVendorTests-acknowledgements.plist */,
-				46EB2E000255E0 /* Pods-FougitoVendor-FougitoVendorTests-dummy.m */,
-				46EB2E000255A0 /* Pods-FougitoVendor-FougitoVendorTests-frameworks.sh */,
-				46EB2E00025560 /* Pods-FougitoVendor-FougitoVendorTests-Info.plist */,
-				46EB2E000255B0 /* Pods-FougitoVendor-FougitoVendorTests-resources.sh */,
-				46EB2E00025580 /* Pods-FougitoVendor-FougitoVendorTests-umbrella.h */,
-				46EB2E00025550 /* Pods-FougitoVendor-FougitoVendorTests.debug.xcconfig */,
-				46EB2E00025540 /* Pods-FougitoVendor-FougitoVendorTests.release.xcconfig */,
+				46EB2E00025570 /* Pods-Rytgo Vendor-Rytgo VendorTests.modulemap */,
+				46EB2E000255D0 /* Pods-Rytgo Vendor-Rytgo VendorTests-acknowledgements.markdown */,
+				46EB2E000255C0 /* Pods-Rytgo Vendor-Rytgo VendorTests-acknowledgements.plist */,
+				46EB2E000255E0 /* Pods-Rytgo Vendor-Rytgo VendorTests-dummy.m */,
+				46EB2E000255A0 /* Pods-Rytgo Vendor-Rytgo VendorTests-frameworks.sh */,
+				46EB2E00025560 /* Pods-Rytgo Vendor-Rytgo VendorTests-Info.plist */,
+				46EB2E000255B0 /* Pods-Rytgo Vendor-Rytgo VendorTests-resources.sh */,
+				46EB2E00025580 /* Pods-Rytgo Vendor-Rytgo VendorTests-umbrella.h */,
+				46EB2E00025550 /* Pods-Rytgo Vendor-Rytgo VendorTests.debug.xcconfig */,
+				46EB2E00025540 /* Pods-Rytgo Vendor-Rytgo VendorTests.release.xcconfig */,
 			);
-			name = "Pods-FougitoVendor-FougitoVendorTests";
-			path = "Target Support Files/Pods-FougitoVendor-FougitoVendorTests";
+			name = "Pods-Rytgo Vendor-Rytgo VendorTests";
+			path = "Target Support Files/Pods-Rytgo Vendor-Rytgo VendorTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -25065,7 +25065,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00025420 /* Pods-FougitoVendor-umbrella.h in Headers */,
+				46EB2E00025420 /* Pods-Rytgo Vendor-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -25073,7 +25073,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00025590 /* Pods-FougitoVendor-FougitoVendorTests-umbrella.h in Headers */,
+				46EB2E00025590 /* Pods-Rytgo Vendor-Rytgo VendorTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26052,26 +26052,9 @@
 			productReference = 269BE773C9482484B70949A40F4EA525 /* React-RCTSettings */;
 			productType = "com.apple.product-type.framework";
 		};
-		6D979AB5FDA2E858850D9903776A30B3 /* RNImageCropPicker-QBImagePicker */ = {
+		69A6E9ACDA5581C5C65845D589D08F88 /* Pods-Rytgo Vendor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00018140 /* Build configuration list for PBXNativeTarget "RNImageCropPicker-QBImagePicker" */;
-			buildPhases = (
-				46EB2E00018180 /* Sources */,
-				46EB2E00018190 /* Frameworks */,
-				46EB2E000181A0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "RNImageCropPicker-QBImagePicker";
-			productName = QBImagePicker;
-			productReference = 3DCCC9C42EB3E07CFD81800EC8A2515D /* RNImageCropPicker-QBImagePicker */;
-			productType = "com.apple.product-type.bundle";
-		};
-		6DEFFE262E284D5AFB5F52668462B130 /* Pods-FougitoVendor */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00025330 /* Build configuration list for PBXNativeTarget "Pods-FougitoVendor" */;
+			buildConfigurationList = 46EB2E00025330 /* Build configuration list for PBXNativeTarget "Pods-Rytgo Vendor" */;
 			buildPhases = (
 				46EB2E00025370 /* Headers */,
 				46EB2E00025380 /* Sources */,
@@ -26169,10 +26152,27 @@
 				46EB2E00026120 /* PBXTargetDependency */,
 				46EB2E00026140 /* PBXTargetDependency */,
 			);
-			name = "Pods-FougitoVendor";
-			productName = Pods_FougitoVendor;
-			productReference = 708153F84882458F056A5FF356CC429E /* Pods-FougitoVendor */;
+			name = "Pods-Rytgo Vendor";
+			productName = Pods_Rytgo_Vendor;
+			productReference = 3C1B9C12D7E08AF0AD64DD9CE536B32F /* Pods-Rytgo Vendor */;
 			productType = "com.apple.product-type.framework";
+		};
+		6D979AB5FDA2E858850D9903776A30B3 /* RNImageCropPicker-QBImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB2E00018140 /* Build configuration list for PBXNativeTarget "RNImageCropPicker-QBImagePicker" */;
+			buildPhases = (
+				46EB2E00018180 /* Sources */,
+				46EB2E00018190 /* Frameworks */,
+				46EB2E000181A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RNImageCropPicker-QBImagePicker";
+			productName = QBImagePicker;
+			productReference = 3DCCC9C42EB3E07CFD81800EC8A2515D /* RNImageCropPicker-QBImagePicker */;
+			productType = "com.apple.product-type.bundle";
 		};
 		6FE9147F8AAA4DE676C190F680F47AE2 /* React-RCTLinking */ = {
 			isa = PBXNativeTarget;
@@ -26195,6 +26195,111 @@
 			name = "React-RCTLinking";
 			productName = RCTLinking;
 			productReference = 802121F5B756ACBFDD6D08C36246DADD /* React-RCTLinking */;
+			productType = "com.apple.product-type.framework";
+		};
+		72E52152FF570941CE2EACA64E18F59B /* Pods-Rytgo Vendor-Rytgo VendorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB2E000254A0 /* Build configuration list for PBXNativeTarget "Pods-Rytgo Vendor-Rytgo VendorTests" */;
+			buildPhases = (
+				46EB2E000254E0 /* Headers */,
+				46EB2E000254F0 /* Sources */,
+				46EB2E00025500 /* Frameworks */,
+				46EB2E00025510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46EB2E00026160 /* PBXTargetDependency */,
+				46EB2E00026180 /* PBXTargetDependency */,
+				46EB2E000261A0 /* PBXTargetDependency */,
+				46EB2E000261C0 /* PBXTargetDependency */,
+				46EB2E000261E0 /* PBXTargetDependency */,
+				46EB2E00026200 /* PBXTargetDependency */,
+				46EB2E00026220 /* PBXTargetDependency */,
+				46EB2E00026240 /* PBXTargetDependency */,
+				46EB2E00026260 /* PBXTargetDependency */,
+				46EB2E00026280 /* PBXTargetDependency */,
+				46EB2E000262A0 /* PBXTargetDependency */,
+				46EB2E000262C0 /* PBXTargetDependency */,
+				46EB2E000262E0 /* PBXTargetDependency */,
+				46EB2E00026300 /* PBXTargetDependency */,
+				46EB2E00026320 /* PBXTargetDependency */,
+				46EB2E00026340 /* PBXTargetDependency */,
+				46EB2E00026360 /* PBXTargetDependency */,
+				46EB2E00026380 /* PBXTargetDependency */,
+				46EB2E000263A0 /* PBXTargetDependency */,
+				46EB2E000263C0 /* PBXTargetDependency */,
+				46EB2E000263E0 /* PBXTargetDependency */,
+				46EB2E00026400 /* PBXTargetDependency */,
+				46EB2E00026420 /* PBXTargetDependency */,
+				46EB2E00026440 /* PBXTargetDependency */,
+				46EB2E00026460 /* PBXTargetDependency */,
+				46EB2E00026480 /* PBXTargetDependency */,
+				46EB2E000264A0 /* PBXTargetDependency */,
+				46EB2E000264C0 /* PBXTargetDependency */,
+				46EB2E000264E0 /* PBXTargetDependency */,
+				46EB2E00026500 /* PBXTargetDependency */,
+				46EB2E00026520 /* PBXTargetDependency */,
+				46EB2E00026540 /* PBXTargetDependency */,
+				46EB2E00026560 /* PBXTargetDependency */,
+				46EB2E00026580 /* PBXTargetDependency */,
+				46EB2E000265A0 /* PBXTargetDependency */,
+				46EB2E000265C0 /* PBXTargetDependency */,
+				46EB2E000265E0 /* PBXTargetDependency */,
+				46EB2E00026600 /* PBXTargetDependency */,
+				46EB2E00026620 /* PBXTargetDependency */,
+				46EB2E00026640 /* PBXTargetDependency */,
+				46EB2E00026660 /* PBXTargetDependency */,
+				46EB2E00026680 /* PBXTargetDependency */,
+				46EB2E000266A0 /* PBXTargetDependency */,
+				46EB2E000266C0 /* PBXTargetDependency */,
+				46EB2E000266E0 /* PBXTargetDependency */,
+				46EB2E00026700 /* PBXTargetDependency */,
+				46EB2E00026720 /* PBXTargetDependency */,
+				46EB2E00026740 /* PBXTargetDependency */,
+				46EB2E00026760 /* PBXTargetDependency */,
+				46EB2E00026780 /* PBXTargetDependency */,
+				46EB2E000267A0 /* PBXTargetDependency */,
+				46EB2E000267C0 /* PBXTargetDependency */,
+				46EB2E000267E0 /* PBXTargetDependency */,
+				46EB2E00026800 /* PBXTargetDependency */,
+				46EB2E00026820 /* PBXTargetDependency */,
+				46EB2E00026840 /* PBXTargetDependency */,
+				46EB2E00026860 /* PBXTargetDependency */,
+				46EB2E00026880 /* PBXTargetDependency */,
+				46EB2E000268A0 /* PBXTargetDependency */,
+				46EB2E000268C0 /* PBXTargetDependency */,
+				46EB2E000268E0 /* PBXTargetDependency */,
+				46EB2E00026900 /* PBXTargetDependency */,
+				46EB2E00026920 /* PBXTargetDependency */,
+				46EB2E00026940 /* PBXTargetDependency */,
+				46EB2E00026960 /* PBXTargetDependency */,
+				46EB2E00026980 /* PBXTargetDependency */,
+				46EB2E000269A0 /* PBXTargetDependency */,
+				46EB2E000269C0 /* PBXTargetDependency */,
+				46EB2E000269E0 /* PBXTargetDependency */,
+				46EB2E00026A00 /* PBXTargetDependency */,
+				46EB2E00026A20 /* PBXTargetDependency */,
+				46EB2E00026A40 /* PBXTargetDependency */,
+				46EB2E00026A60 /* PBXTargetDependency */,
+				46EB2E00026A80 /* PBXTargetDependency */,
+				46EB2E00026AA0 /* PBXTargetDependency */,
+				46EB2E00026AC0 /* PBXTargetDependency */,
+				46EB2E00026AE0 /* PBXTargetDependency */,
+				46EB2E00026B00 /* PBXTargetDependency */,
+				46EB2E00026B20 /* PBXTargetDependency */,
+				46EB2E00026B40 /* PBXTargetDependency */,
+				46EB2E00026B60 /* PBXTargetDependency */,
+				46EB2E00026B80 /* PBXTargetDependency */,
+				46EB2E00026BA0 /* PBXTargetDependency */,
+				46EB2E00026BC0 /* PBXTargetDependency */,
+				46EB2E00026BE0 /* PBXTargetDependency */,
+				46EB2E00026C00 /* PBXTargetDependency */,
+				46EB2E00026C20 /* PBXTargetDependency */,
+			);
+			name = "Pods-Rytgo Vendor-Rytgo VendorTests";
+			productName = Pods_Rytgo_Vendor_Rytgo_VendorTests;
+			productReference = B28354A996E810069556F3ED942E863B /* Pods-Rytgo Vendor-Rytgo VendorTests */;
 			productType = "com.apple.product-type.framework";
 		};
 		7ACAA9BE580DD31A5CB9D97C45D9492D /* React-Core */ = {
@@ -27133,111 +27238,6 @@
 			productReference = 2577F299FCB0A19824FE989BE77B8E8F /* React-jsinspector */;
 			productType = "com.apple.product-type.framework";
 		};
-		F8416E750C093CD3CC2EB46500B11D61 /* Pods-FougitoVendor-FougitoVendorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E000254A0 /* Build configuration list for PBXNativeTarget "Pods-FougitoVendor-FougitoVendorTests" */;
-			buildPhases = (
-				46EB2E000254E0 /* Headers */,
-				46EB2E000254F0 /* Sources */,
-				46EB2E00025500 /* Frameworks */,
-				46EB2E00025510 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				46EB2E00026160 /* PBXTargetDependency */,
-				46EB2E00026180 /* PBXTargetDependency */,
-				46EB2E000261A0 /* PBXTargetDependency */,
-				46EB2E000261C0 /* PBXTargetDependency */,
-				46EB2E000261E0 /* PBXTargetDependency */,
-				46EB2E00026200 /* PBXTargetDependency */,
-				46EB2E00026220 /* PBXTargetDependency */,
-				46EB2E00026240 /* PBXTargetDependency */,
-				46EB2E00026260 /* PBXTargetDependency */,
-				46EB2E00026280 /* PBXTargetDependency */,
-				46EB2E000262A0 /* PBXTargetDependency */,
-				46EB2E000262C0 /* PBXTargetDependency */,
-				46EB2E000262E0 /* PBXTargetDependency */,
-				46EB2E00026300 /* PBXTargetDependency */,
-				46EB2E00026320 /* PBXTargetDependency */,
-				46EB2E00026340 /* PBXTargetDependency */,
-				46EB2E00026360 /* PBXTargetDependency */,
-				46EB2E00026380 /* PBXTargetDependency */,
-				46EB2E000263A0 /* PBXTargetDependency */,
-				46EB2E000263C0 /* PBXTargetDependency */,
-				46EB2E000263E0 /* PBXTargetDependency */,
-				46EB2E00026400 /* PBXTargetDependency */,
-				46EB2E00026420 /* PBXTargetDependency */,
-				46EB2E00026440 /* PBXTargetDependency */,
-				46EB2E00026460 /* PBXTargetDependency */,
-				46EB2E00026480 /* PBXTargetDependency */,
-				46EB2E000264A0 /* PBXTargetDependency */,
-				46EB2E000264C0 /* PBXTargetDependency */,
-				46EB2E000264E0 /* PBXTargetDependency */,
-				46EB2E00026500 /* PBXTargetDependency */,
-				46EB2E00026520 /* PBXTargetDependency */,
-				46EB2E00026540 /* PBXTargetDependency */,
-				46EB2E00026560 /* PBXTargetDependency */,
-				46EB2E00026580 /* PBXTargetDependency */,
-				46EB2E000265A0 /* PBXTargetDependency */,
-				46EB2E000265C0 /* PBXTargetDependency */,
-				46EB2E000265E0 /* PBXTargetDependency */,
-				46EB2E00026600 /* PBXTargetDependency */,
-				46EB2E00026620 /* PBXTargetDependency */,
-				46EB2E00026640 /* PBXTargetDependency */,
-				46EB2E00026660 /* PBXTargetDependency */,
-				46EB2E00026680 /* PBXTargetDependency */,
-				46EB2E000266A0 /* PBXTargetDependency */,
-				46EB2E000266C0 /* PBXTargetDependency */,
-				46EB2E000266E0 /* PBXTargetDependency */,
-				46EB2E00026700 /* PBXTargetDependency */,
-				46EB2E00026720 /* PBXTargetDependency */,
-				46EB2E00026740 /* PBXTargetDependency */,
-				46EB2E00026760 /* PBXTargetDependency */,
-				46EB2E00026780 /* PBXTargetDependency */,
-				46EB2E000267A0 /* PBXTargetDependency */,
-				46EB2E000267C0 /* PBXTargetDependency */,
-				46EB2E000267E0 /* PBXTargetDependency */,
-				46EB2E00026800 /* PBXTargetDependency */,
-				46EB2E00026820 /* PBXTargetDependency */,
-				46EB2E00026840 /* PBXTargetDependency */,
-				46EB2E00026860 /* PBXTargetDependency */,
-				46EB2E00026880 /* PBXTargetDependency */,
-				46EB2E000268A0 /* PBXTargetDependency */,
-				46EB2E000268C0 /* PBXTargetDependency */,
-				46EB2E000268E0 /* PBXTargetDependency */,
-				46EB2E00026900 /* PBXTargetDependency */,
-				46EB2E00026920 /* PBXTargetDependency */,
-				46EB2E00026940 /* PBXTargetDependency */,
-				46EB2E00026960 /* PBXTargetDependency */,
-				46EB2E00026980 /* PBXTargetDependency */,
-				46EB2E000269A0 /* PBXTargetDependency */,
-				46EB2E000269C0 /* PBXTargetDependency */,
-				46EB2E000269E0 /* PBXTargetDependency */,
-				46EB2E00026A00 /* PBXTargetDependency */,
-				46EB2E00026A20 /* PBXTargetDependency */,
-				46EB2E00026A40 /* PBXTargetDependency */,
-				46EB2E00026A60 /* PBXTargetDependency */,
-				46EB2E00026A80 /* PBXTargetDependency */,
-				46EB2E00026AA0 /* PBXTargetDependency */,
-				46EB2E00026AC0 /* PBXTargetDependency */,
-				46EB2E00026AE0 /* PBXTargetDependency */,
-				46EB2E00026B00 /* PBXTargetDependency */,
-				46EB2E00026B20 /* PBXTargetDependency */,
-				46EB2E00026B40 /* PBXTargetDependency */,
-				46EB2E00026B60 /* PBXTargetDependency */,
-				46EB2E00026B80 /* PBXTargetDependency */,
-				46EB2E00026BA0 /* PBXTargetDependency */,
-				46EB2E00026BC0 /* PBXTargetDependency */,
-				46EB2E00026BE0 /* PBXTargetDependency */,
-				46EB2E00026C00 /* PBXTargetDependency */,
-				46EB2E00026C20 /* PBXTargetDependency */,
-			);
-			name = "Pods-FougitoVendor-FougitoVendorTests";
-			productName = Pods_FougitoVendor_FougitoVendorTests;
-			productReference = C53399DDD5FDD63B28B1FD9937251093 /* Pods-FougitoVendor-FougitoVendorTests */;
-			productType = "com.apple.product-type.framework";
-		};
 		FA877ADC442CB19CF61793D234C8B131 /* React-jsi */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46EB2E00020BE0 /* Build configuration list for PBXNativeTarget "React-jsi" */;
@@ -27397,8 +27397,8 @@
 				EAA7074B2F73B968624CD188CCD39398 /* myfatoorah-reactnative */,
 				D2B5E7DCCBBFB32341D857D01211A1A3 /* nanopb */,
 				55522A91938FF505CFEBEAD2DD85AE2D /* nanopb-nanopb_Privacy */,
-				6DEFFE262E284D5AFB5F52668462B130 /* Pods-FougitoVendor */,
-				F8416E750C093CD3CC2EB46500B11D61 /* Pods-FougitoVendor-FougitoVendorTests */,
+				69A6E9ACDA5581C5C65845D589D08F88 /* Pods-Rytgo Vendor */,
+				72E52152FF570941CE2EACA64E18F59B /* Pods-Rytgo Vendor-Rytgo VendorTests */,
 				2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */,
 				1BFBEDBF7E03729D43C96530EE190825 /* PromisesObjC-FBLPromises_Privacy */,
 				EC55D52694092A9D0E6A78EB01207EB5 /* RCT-Folly */,
@@ -30487,7 +30487,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00025480 /* Pods-FougitoVendor-dummy.m in Sources */,
+				46EB2E00025480 /* Pods-Rytgo Vendor-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30495,7 +30495,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E000255F0 /* Pods-FougitoVendor-FougitoVendorTests-dummy.m in Sources */,
+				46EB2E000255F0 /* Pods-Rytgo Vendor-Rytgo VendorTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40284,7 +40284,7 @@
 		};
 		46EB2E00025340 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000253D0 /* Pods-FougitoVendor.release.xcconfig */;
+			baseConfigurationReference = 46EB2E000253D0 /* Pods-Rytgo Vendor.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -40296,7 +40296,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FougitoVendor/Pods-FougitoVendor-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rytgo Vendor/Pods-Rytgo Vendor-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -40305,7 +40305,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FougitoVendor/Pods-FougitoVendor.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Rytgo Vendor/Pods-Rytgo Vendor.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -40322,7 +40322,7 @@
 		};
 		46EB2E00025350 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000253E0 /* Pods-FougitoVendor.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E000253E0 /* Pods-Rytgo Vendor.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -40334,7 +40334,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FougitoVendor/Pods-FougitoVendor-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rytgo Vendor/Pods-Rytgo Vendor-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -40343,7 +40343,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FougitoVendor/Pods-FougitoVendor.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Rytgo Vendor/Pods-Rytgo Vendor.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -40359,7 +40359,7 @@
 		};
 		46EB2E000254B0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00025540 /* Pods-FougitoVendor-FougitoVendorTests.release.xcconfig */;
+			baseConfigurationReference = 46EB2E00025540 /* Pods-Rytgo Vendor-Rytgo VendorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -40371,7 +40371,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FougitoVendor-FougitoVendorTests/Pods-FougitoVendor-FougitoVendorTests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rytgo Vendor-Rytgo VendorTests/Pods-Rytgo Vendor-Rytgo VendorTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -40380,7 +40380,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FougitoVendor-FougitoVendorTests/Pods-FougitoVendor-FougitoVendorTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Rytgo Vendor-Rytgo VendorTests/Pods-Rytgo Vendor-Rytgo VendorTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -40397,7 +40397,7 @@
 		};
 		46EB2E000254C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00025550 /* Pods-FougitoVendor-FougitoVendorTests.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E00025550 /* Pods-Rytgo Vendor-Rytgo VendorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -40409,7 +40409,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FougitoVendor-FougitoVendorTests/Pods-FougitoVendor-FougitoVendorTests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rytgo Vendor-Rytgo VendorTests/Pods-Rytgo Vendor-Rytgo VendorTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -40418,7 +40418,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FougitoVendor-FougitoVendorTests/Pods-FougitoVendor-FougitoVendorTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Rytgo Vendor-Rytgo VendorTests/Pods-Rytgo Vendor-Rytgo VendorTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -41362,7 +41362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E00025330 /* Build configuration list for PBXNativeTarget "Pods-FougitoVendor" */ = {
+		46EB2E00025330 /* Build configuration list for PBXNativeTarget "Pods-Rytgo Vendor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				46EB2E00025350 /* Debug */,
@@ -41371,7 +41371,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E000254A0 /* Build configuration list for PBXNativeTarget "Pods-FougitoVendor-FougitoVendorTests" */ = {
+		46EB2E000254A0 /* Build configuration list for PBXNativeTarget "Pods-Rytgo Vendor-Rytgo VendorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				46EB2E000254C0 /* Debug */,

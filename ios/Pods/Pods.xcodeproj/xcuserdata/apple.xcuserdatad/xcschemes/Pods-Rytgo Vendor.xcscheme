@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F8416E750C093CD3CC2EB46500B11D61"
-               BuildableName = "Pods_FougitoVendor_FougitoVendorTests.framework"
-               BlueprintName = "Pods-FougitoVendor-FougitoVendorTests"
+               BlueprintIdentifier = "69A6E9ACDA5581C5C65845D589D08F88"
+               BuildableName = "Pods_Rytgo_Vendor.framework"
+               BlueprintName = "Pods-Rytgo Vendor"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

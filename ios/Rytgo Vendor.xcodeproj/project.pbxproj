@@ -21,9 +21,8 @@
 		273FE467DAF5453D8F661901 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93EA566E936F42929CC0FFD7 /* Montserrat-Bold.ttf */; };
 		29BF2B0C7E0D4C9EB57CEA6D /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C8532B03C5F47FA99AB6440 /* Montserrat-BoldItalic.ttf */; };
 		2C42586E45914A29A0108B33 /* Ubuntu-C.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D78159D9FE424B93881415A3 /* Ubuntu-C.ttf */; };
-		3953311D8FA754AD12D5ADF8 /* Pods_FougitoVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D92B7CECC310456A829B69 /* Pods_FougitoVendor.framework */; };
-		3A5D31A35133606458BA6CBE /* Pods_FougitoVendor_FougitoVendorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46DC30FECE030F64A42980DE /* Pods_FougitoVendor_FougitoVendorTests.framework */; };
 		475FE3203F0E450C884305A1 /* Ubuntu-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72F26F065FBD41B384F13296 /* Ubuntu-R.ttf */; };
+		6022F65FC06FF67AA56C1968 /* Pods_Rytgo_Vendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2BCDEB02B9327D8C401E89 /* Pods_Rytgo_Vendor.framework */; };
 		6076DD7FB4E245D691D676A0 /* Ubuntu-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8500260C7D5E48C6AB8ED6D7 /* Ubuntu-BI.ttf */; };
 		643145F5DF5F47C88957A21B /* Ubuntu-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 751BFE68D422473082A022E3 /* Ubuntu-B.ttf */; };
 		68D1EC601C00469C9E79880F /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0201BBF5DAA84D9BB2029135 /* Montserrat-Thin.ttf */; };
@@ -36,6 +35,7 @@
 		B4F4B70FE9FE4315B57BDDD9 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D5BB62829134B9890D9BBFB /* Montserrat-Italic.ttf */; };
 		BE7FFD8166D54064AB52A368 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 897524AF971B4A348E51B54F /* Montserrat-BlackItalic.ttf */; };
 		BEB032BF696B49E5AB892E8C /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 448561F61EBF48499EA8FA55 /* Montserrat-SemiBold.ttf */; };
+		C82A1541A57FEBBFCD9DE8D2 /* Pods_Rytgo_Vendor_Rytgo_VendorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D51A629A5AAE768C6B7217 /* Pods_Rytgo_Vendor_Rytgo_VendorTests.framework */; };
 		CF6FA038022E47AC9B360512 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 859858DD15BD480E8685E469 /* Montserrat-Light.ttf */; };
 		D9896C58BD69426DB24D83D2 /* Ubuntu-MI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 615124B20ECA4FA397940FE8 /* Ubuntu-MI.ttf */; };
 		EB2C20F8DF254250939A88BD /* Ubuntu-LI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20F618DC888249F09E70A4DF /* Ubuntu-LI.ttf */; };
@@ -55,16 +55,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* FougitoVendorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FougitoVendorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* Rytgo VendorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rytgo VendorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* FougitoVendorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FougitoVendorTests.m; sourceTree = "<group>"; };
-		0201BBF5DAA84D9BB2029135 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.ttf"; path = "../Assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
-		062213842E5549E0B90E42ED /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBoldItalic.ttf"; path = "../Assets/fonts/Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
-		0743B7A853E141C5B5EED455 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBoldItalic.ttf"; path = "../Assets/fonts/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
-		0C8532B03C5F47FA99AB6440 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BoldItalic.ttf"; path = "../Assets/fonts/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
-		0D5BB62829134B9890D9BBFB /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Italic.ttf"; path = "../Assets/fonts/Montserrat-Italic.ttf"; sourceTree = "<group>"; };
-		0E89CD5C0E2A4C039B2368C1 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../Assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* FougitoVendor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FougitoVendor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0201BBF5DAA84D9BB2029135 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.ttf"; path = "../Assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		062213842E5549E0B90E42ED /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBoldItalic.ttf"; path = "../Assets/fonts/Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		0743B7A853E141C5B5EED455 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBoldItalic.ttf"; path = "../Assets/fonts/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		0C8532B03C5F47FA99AB6440 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BoldItalic.ttf"; path = "../Assets/fonts/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		0D5BB62829134B9890D9BBFB /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Italic.ttf"; path = "../Assets/fonts/Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		0E89CD5C0E2A4C039B2368C1 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../Assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Rytgo Vendor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rytgo Vendor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FougitoVendor/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = FougitoVendor/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FougitoVendor/Images.xcassets; sourceTree = "<group>"; };
@@ -73,32 +73,36 @@
 		165F919094E945B0F4BC0361 /* Pods-FougitoVendor-FougitoVendorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FougitoVendor-FougitoVendorTests.release.xcconfig"; path = "Target Support Files/Pods-FougitoVendor-FougitoVendorTests/Pods-FougitoVendor-FougitoVendorTests.release.xcconfig"; sourceTree = "<group>"; };
 		17847C6E32C8890657D2265D /* Pods-FougitoVendor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FougitoVendor.release.xcconfig"; path = "Target Support Files/Pods-FougitoVendor/Pods-FougitoVendor.release.xcconfig"; sourceTree = "<group>"; };
 		186E39BD2E70096C00BF8FCE /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		20F618DC888249F09E70A4DF /* Ubuntu-LI.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-LI.ttf"; path = "../Assets/fonts/Ubuntu-LI.ttf"; sourceTree = "<group>"; };
-		448561F61EBF48499EA8FA55 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../Assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
-		46DC30FECE030F64A42980DE /* Pods_FougitoVendor_FougitoVendorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FougitoVendor_FougitoVendorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		53537D8A04884E9CAA2B573A /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../Assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
-		615124B20ECA4FA397940FE8 /* Ubuntu-MI.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-MI.ttf"; path = "../Assets/fonts/Ubuntu-MI.ttf"; sourceTree = "<group>"; };
-		722EAD9A061A45FCAF7B2482 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLight.ttf"; path = "../Assets/fonts/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
-		72F26F065FBD41B384F13296 /* Ubuntu-R.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-R.ttf"; path = "../Assets/fonts/Ubuntu-R.ttf"; sourceTree = "<group>"; };
-		751BFE68D422473082A022E3 /* Ubuntu-B.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-B.ttf"; path = "../Assets/fonts/Ubuntu-B.ttf"; sourceTree = "<group>"; };
-		7F89604D1D9C4B99B2C825C6 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBold.ttf"; path = "../Assets/fonts/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		20F618DC888249F09E70A4DF /* Ubuntu-LI.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-LI.ttf"; path = "../Assets/fonts/Ubuntu-LI.ttf"; sourceTree = "<group>"; };
+		448561F61EBF48499EA8FA55 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../Assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		53537D8A04884E9CAA2B573A /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../Assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		57D51A629A5AAE768C6B7217 /* Pods_Rytgo_Vendor_Rytgo_VendorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rytgo_Vendor_Rytgo_VendorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		615124B20ECA4FA397940FE8 /* Ubuntu-MI.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-MI.ttf"; path = "../Assets/fonts/Ubuntu-MI.ttf"; sourceTree = "<group>"; };
+		6D2BCDEB02B9327D8C401E89 /* Pods_Rytgo_Vendor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rytgo_Vendor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		722EAD9A061A45FCAF7B2482 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLight.ttf"; path = "../Assets/fonts/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		72F26F065FBD41B384F13296 /* Ubuntu-R.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-R.ttf"; path = "../Assets/fonts/Ubuntu-R.ttf"; sourceTree = "<group>"; };
+		751BFE68D422473082A022E3 /* Ubuntu-B.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-B.ttf"; path = "../Assets/fonts/Ubuntu-B.ttf"; sourceTree = "<group>"; };
+		7C37FB28FE277CC027AFD1E4 /* Pods-Rytgo Vendor-Rytgo VendorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rytgo Vendor-Rytgo VendorTests.debug.xcconfig"; path = "Target Support Files/Pods-Rytgo Vendor-Rytgo VendorTests/Pods-Rytgo Vendor-Rytgo VendorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F89604D1D9C4B99B2C825C6 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBold.ttf"; path = "../Assets/fonts/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = FougitoVendor/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8500260C7D5E48C6AB8ED6D7 /* Ubuntu-BI.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-BI.ttf"; path = "../Assets/fonts/Ubuntu-BI.ttf"; sourceTree = "<group>"; };
-		859858DD15BD480E8685E469 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../Assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
-		897524AF971B4A348E51B54F /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BlackItalic.ttf"; path = "../Assets/fonts/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
-		8D9AEA3409EE4CCD96CC8601 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ThinItalic.ttf"; path = "../Assets/fonts/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
-		93EA566E936F42929CC0FFD7 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../Assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		8500260C7D5E48C6AB8ED6D7 /* Ubuntu-BI.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-BI.ttf"; path = "../Assets/fonts/Ubuntu-BI.ttf"; sourceTree = "<group>"; };
+		859858DD15BD480E8685E469 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../Assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		897524AF971B4A348E51B54F /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BlackItalic.ttf"; path = "../Assets/fonts/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		8D9AEA3409EE4CCD96CC8601 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ThinItalic.ttf"; path = "../Assets/fonts/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		93EA566E936F42929CC0FFD7 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../Assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		9532741D05584D102481DE6C /* Pods-FougitoVendor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FougitoVendor.debug.xcconfig"; path = "Target Support Files/Pods-FougitoVendor/Pods-FougitoVendor.debug.xcconfig"; sourceTree = "<group>"; };
-		99BFE8A3AEA94DC0A0DA91A5 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Black.ttf"; path = "../Assets/fonts/Montserrat-Black.ttf"; sourceTree = "<group>"; };
-		A0C485EC1A4D4616A041096E /* Ubuntu-M.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-M.ttf"; path = "../Assets/fonts/Ubuntu-M.ttf"; sourceTree = "<group>"; };
+		98F6EC13BAD0B23AF3732605 /* Pods-Rytgo Vendor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rytgo Vendor.release.xcconfig"; path = "Target Support Files/Pods-Rytgo Vendor/Pods-Rytgo Vendor.release.xcconfig"; sourceTree = "<group>"; };
+		99BFE8A3AEA94DC0A0DA91A5 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Black.ttf"; path = "../Assets/fonts/Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		A0C485EC1A4D4616A041096E /* Ubuntu-M.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-M.ttf"; path = "../Assets/fonts/Ubuntu-M.ttf"; sourceTree = "<group>"; };
 		B31BDC0F06388966D1D3F3DE /* Pods-FougitoVendor-FougitoVendorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FougitoVendor-FougitoVendorTests.debug.xcconfig"; path = "Target Support Files/Pods-FougitoVendor-FougitoVendorTests/Pods-FougitoVendor-FougitoVendorTests.debug.xcconfig"; sourceTree = "<group>"; };
-		BF81342DEE8943C5BDB97BCD /* Ubuntu-L.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-L.ttf"; path = "../Assets/fonts/Ubuntu-L.ttf"; sourceTree = "<group>"; };
-		C3ECBA8B581B440C80B240C1 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-MediumItalic.ttf"; path = "../Assets/fonts/Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
-		D5844160B43943C192DD2D1D /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLightItalic.ttf"; path = "../Assets/fonts/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
-		D5D92B7CECC310456A829B69 /* Pods_FougitoVendor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FougitoVendor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D78159D9FE424B93881415A3 /* Ubuntu-C.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-C.ttf"; path = "../Assets/fonts/Ubuntu-C.ttf"; sourceTree = "<group>"; };
-		DED3B9B80D8A45D0A7CAEC1E /* Ubuntu-RI.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-RI.ttf"; path = "../Assets/fonts/Ubuntu-RI.ttf"; sourceTree = "<group>"; };
-		E327C9567658496A9FAE4D63 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-LightItalic.ttf"; path = "../Assets/fonts/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		BF81342DEE8943C5BDB97BCD /* Ubuntu-L.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-L.ttf"; path = "../Assets/fonts/Ubuntu-L.ttf"; sourceTree = "<group>"; };
+		BFDCBEA6AEF349EBFD033C34 /* Pods-Rytgo Vendor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rytgo Vendor.debug.xcconfig"; path = "Target Support Files/Pods-Rytgo Vendor/Pods-Rytgo Vendor.debug.xcconfig"; sourceTree = "<group>"; };
+		C3ECBA8B581B440C80B240C1 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-MediumItalic.ttf"; path = "../Assets/fonts/Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		D5844160B43943C192DD2D1D /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLightItalic.ttf"; path = "../Assets/fonts/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		D78159D9FE424B93881415A3 /* Ubuntu-C.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-C.ttf"; path = "../Assets/fonts/Ubuntu-C.ttf"; sourceTree = "<group>"; };
+		D7F06D71DC043CF6D1F52ADC /* Pods-Rytgo Vendor-Rytgo VendorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rytgo Vendor-Rytgo VendorTests.release.xcconfig"; path = "Target Support Files/Pods-Rytgo Vendor-Rytgo VendorTests/Pods-Rytgo Vendor-Rytgo VendorTests.release.xcconfig"; sourceTree = "<group>"; };
+		DED3B9B80D8A45D0A7CAEC1E /* Ubuntu-RI.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-RI.ttf"; path = "../Assets/fonts/Ubuntu-RI.ttf"; sourceTree = "<group>"; };
+		E327C9567658496A9FAE4D63 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-LightItalic.ttf"; path = "../Assets/fonts/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -107,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A5D31A35133606458BA6CBE /* Pods_FougitoVendor_FougitoVendorTests.framework in Frameworks */,
+				C82A1541A57FEBBFCD9DE8D2 /* Pods_Rytgo_Vendor_Rytgo_VendorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3953311D8FA754AD12D5ADF8 /* Pods_FougitoVendor.framework in Frameworks */,
+				6022F65FC06FF67AA56C1968 /* Pods_Rytgo_Vendor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,8 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				D5D92B7CECC310456A829B69 /* Pods_FougitoVendor.framework */,
-				46DC30FECE030F64A42980DE /* Pods_FougitoVendor_FougitoVendorTests.framework */,
+				6D2BCDEB02B9327D8C401E89 /* Pods_Rytgo_Vendor.framework */,
+				57D51A629A5AAE768C6B7217 /* Pods_Rytgo_Vendor_Rytgo_VendorTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -189,8 +193,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* FougitoVendor.app */,
-				00E356EE1AD99517003FC87E /* FougitoVendorTests.xctest */,
+				13B07F961A680F5B00A75B9A /* Rytgo Vendor.app */,
+				00E356EE1AD99517003FC87E /* Rytgo VendorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -202,6 +206,10 @@
 				17847C6E32C8890657D2265D /* Pods-FougitoVendor.release.xcconfig */,
 				B31BDC0F06388966D1D3F3DE /* Pods-FougitoVendor-FougitoVendorTests.debug.xcconfig */,
 				165F919094E945B0F4BC0361 /* Pods-FougitoVendor-FougitoVendorTests.release.xcconfig */,
+				BFDCBEA6AEF349EBFD033C34 /* Pods-Rytgo Vendor.debug.xcconfig */,
+				98F6EC13BAD0B23AF3732605 /* Pods-Rytgo Vendor.release.xcconfig */,
+				7C37FB28FE277CC027AFD1E4 /* Pods-Rytgo Vendor-Rytgo VendorTests.debug.xcconfig */,
+				D7F06D71DC043CF6D1F52ADC /* Pods-Rytgo Vendor-Rytgo VendorTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -243,9 +251,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* FougitoVendorTests */ = {
+		00E356ED1AD99517003FC87E /* Rytgo VendorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FougitoVendorTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Rytgo VendorTests" */;
 			buildPhases = (
 				A5E7CCE7B665BB11F21111A3 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -259,14 +267,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = FougitoVendorTests;
+			name = "Rytgo VendorTests";
 			productName = FougitoVendorTests;
-			productReference = 00E356EE1AD99517003FC87E /* FougitoVendorTests.xctest */;
+			productReference = 00E356EE1AD99517003FC87E /* Rytgo VendorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* FougitoVendor */ = {
+		13B07F861A680F5B00A75B9A /* Rytgo Vendor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FougitoVendor" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Rytgo Vendor" */;
 			buildPhases = (
 				4D9CA54881DABD1D5FFE3C14 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -282,9 +290,9 @@
 			);
 			dependencies = (
 			);
-			name = FougitoVendor;
+			name = "Rytgo Vendor";
 			productName = FougitoVendor;
-			productReference = 13B07F961A680F5B00A75B9A /* FougitoVendor.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* Rytgo Vendor.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -304,7 +312,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "FougitoVendor" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Rytgo Vendor" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -317,8 +325,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* FougitoVendor */,
-				00E356ED1AD99517003FC87E /* FougitoVendorTests */,
+				13B07F861A680F5B00A75B9A /* Rytgo Vendor */,
+				00E356ED1AD99517003FC87E /* Rytgo VendorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -400,7 +408,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FougitoVendor-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Rytgo Vendor-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -413,15 +421,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor-FougitoVendorTests/Pods-FougitoVendor-FougitoVendorTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Rytgo Vendor-Rytgo VendorTests/Pods-Rytgo Vendor-Rytgo VendorTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor-FougitoVendorTests/Pods-FougitoVendor-FougitoVendorTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Rytgo Vendor-Rytgo VendorTests/Pods-Rytgo Vendor-Rytgo VendorTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor-FougitoVendorTests/Pods-FougitoVendor-FougitoVendorTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rytgo Vendor-Rytgo VendorTests/Pods-Rytgo Vendor-Rytgo VendorTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		66DC74F7D9D4166C8329AA84 /* [CP] Copy Pods Resources */ = {
@@ -430,15 +438,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor-FougitoVendorTests/Pods-FougitoVendor-FougitoVendorTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Rytgo Vendor-Rytgo VendorTests/Pods-Rytgo Vendor-Rytgo VendorTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor-FougitoVendorTests/Pods-FougitoVendor-FougitoVendorTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Rytgo Vendor-Rytgo VendorTests/Pods-Rytgo Vendor-Rytgo VendorTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor-FougitoVendorTests/Pods-FougitoVendor-FougitoVendorTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rytgo Vendor-Rytgo VendorTests/Pods-Rytgo Vendor-Rytgo VendorTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A51B2340227494DB2ABF5328 /* [CP] Copy Pods Resources */ = {
@@ -447,15 +455,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor/Pods-FougitoVendor-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Rytgo Vendor/Pods-Rytgo Vendor-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor/Pods-FougitoVendor-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Rytgo Vendor/Pods-Rytgo Vendor-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor/Pods-FougitoVendor-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rytgo Vendor/Pods-Rytgo Vendor-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A5E7CCE7B665BB11F21111A3 /* [CP] Check Pods Manifest.lock */ = {
@@ -473,7 +481,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FougitoVendor-FougitoVendorTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Rytgo Vendor-Rytgo VendorTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -499,15 +507,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor/Pods-FougitoVendor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Rytgo Vendor/Pods-Rytgo Vendor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor/Pods-FougitoVendor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Rytgo Vendor/Pods-Rytgo Vendor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FougitoVendor/Pods-FougitoVendor-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rytgo Vendor/Pods-Rytgo Vendor-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -554,7 +562,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* FougitoVendor */;
+			target = 13B07F861A680F5B00A75B9A /* Rytgo Vendor */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -562,7 +570,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B31BDC0F06388966D1D3F3DE /* Pods-FougitoVendor-FougitoVendorTests.debug.xcconfig */;
+			baseConfigurationReference = 7C37FB28FE277CC027AFD1E4 /* Pods-Rytgo Vendor-Rytgo VendorTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -583,13 +591,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FougitoVendor.app/FougitoVendor";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rytgo Vendor.app/Rytgo Vendor";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 165F919094E945B0F4BC0361 /* Pods-FougitoVendor-FougitoVendorTests.release.xcconfig */;
+			baseConfigurationReference = D7F06D71DC043CF6D1F52ADC /* Pods-Rytgo Vendor-Rytgo VendorTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -607,18 +615,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FougitoVendor.app/FougitoVendor";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rytgo Vendor.app/Rytgo Vendor";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9532741D05584D102481DE6C /* Pods-FougitoVendor.debug.xcconfig */;
+			baseConfigurationReference = BFDCBEA6AEF349EBFD033C34 /* Pods-Rytgo Vendor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1.5;
-				DEVELOPMENT_TEAM = M7XN37KV2Z;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MX2JTYD7KL;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FougitoVendor/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Rytgo Vendor";
@@ -627,14 +635,14 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 5;
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rytgovendor;
-				PRODUCT_NAME = FougitoVendor;
+				PRODUCT_NAME = "Rytgo Vendor";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -643,12 +651,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17847C6E32C8890657D2265D /* Pods-FougitoVendor.release.xcconfig */;
+			baseConfigurationReference = 98F6EC13BAD0B23AF3732605 /* Pods-Rytgo Vendor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1.5;
-				DEVELOPMENT_TEAM = M7XN37KV2Z;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MX2JTYD7KL;
 				INFOPLIST_FILE = FougitoVendor/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Rytgo Vendor";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -656,14 +664,14 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 5;
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rytgovendor;
-				PRODUCT_NAME = FougitoVendor;
+				PRODUCT_NAME = "Rytgo Vendor";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -843,7 +851,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FougitoVendorTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Rytgo VendorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -852,7 +860,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FougitoVendor" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Rytgo Vendor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -861,7 +869,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "FougitoVendor" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Rytgo Vendor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

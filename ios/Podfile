@@ -103,7 +103,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'FougitoVendor' do
+target 'Rytgo Vendor' do
   use_frameworks! :linkage => :static
   config = use_native_modules!
   pod 'Firebase', :modular_headers => true
@@ -122,7 +122,7 @@ target 'FougitoVendor' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'FougitoVendorTests' do
+  target 'Rytgo VendorTests' do
     inherit! :complete
     # Pods for testing
   end

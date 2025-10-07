@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_FougitoVendorVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_FougitoVendorVersionString[];
+FOUNDATION_EXPORT double Pods_Rytgo_Vendor_Rytgo_VendorTestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Rytgo_Vendor_Rytgo_VendorTestsVersionString[];
 

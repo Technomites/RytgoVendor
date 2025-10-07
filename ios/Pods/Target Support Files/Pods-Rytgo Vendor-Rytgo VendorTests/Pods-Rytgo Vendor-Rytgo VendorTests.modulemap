@@ -1,0 +1,6 @@
+framework module Pods_Rytgo_Vendor_Rytgo_VendorTests {
+  umbrella header "Pods-Rytgo Vendor-Rytgo VendorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

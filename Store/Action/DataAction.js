@@ -412,7 +412,10 @@ export const getUserProfileInfo = token => {
     fetch(`${BaseURL}/api/v1/vendor/account/profile`, requestOptions)
       .then(response => response.json())
       .then(result => {
+          console.log(result,'result.profile');
         if (result.profile) {
+          console.log(result.profile,'result.profile');
+          
           dispatch({
             type: GetUserProfileConst.GET_USER_PROFILE,
             userProfile: result.profile,
