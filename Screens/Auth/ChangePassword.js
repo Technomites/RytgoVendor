@@ -40,6 +40,7 @@ const ChangePassword = props => {
   const [succModal, setSUccessModal] = useState(false);
 
   useEffect(() => {
+    if(resMessage !== null){
     if (resMessage === 'Password saved successfully') {
       setMessage(resMessage);
       setSUccessModal(true);
@@ -47,9 +48,10 @@ const ChangePassword = props => {
       setMessage(resMessage);
       setPopUpModal(true);
     }
+  }
   }, [resMessage]);
 
-  const changePasswordHandler = async () => {
+  const changePasswordHandler = () => {
     var passwordreg = new RegExp(
       /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z0-9!@#$%^&*/+(){}=!.<>|:-?_<>";'~`]{8,}$/,
     );
@@ -63,7 +65,7 @@ const ChangePassword = props => {
     } else if (formData.newPassword !== formData.conPassword) {
       setMessage("Password dones't matched");
       setPopUpModal(true);
-    } else if (formData.newPassword !== passwordreg) {
+    } else if (!passwordreg.test(formData.newPassword)) {
       setMessage(
         'Min. 8 characters, at least one uppercase letter, one lowercase letter, and one number',
       );
@@ -84,11 +86,12 @@ const ChangePassword = props => {
   };
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: Colors.bgGray,
+    <SafeAreaView style={{
+      flex: 1, backgroundColor: Colors.bgGray,
 
-                     paddingTop: Safeareacontext.top
-      
-     }}>
+      paddingTop: Safeareacontext.top
+
+    }}>
       <ScrollView>
         <BackHeader
           title="Change Password"
@@ -173,14 +176,14 @@ const ChangePassword = props => {
             </View>
           </View>
         </View>
-        {/* <PopUpModel
+        <PopUpModel
           onPress={() => {
             setPopUpModal(false);
             setMessage(null);
           }}
           visible={popUpModal}
           message={message}
-        /> */}
+        />
 
         <SuccessModal
           modelOff={() => {

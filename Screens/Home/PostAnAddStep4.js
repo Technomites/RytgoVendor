@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import {
   View,
   Text,
@@ -28,6 +28,8 @@ import { Marker } from 'react-native-maps';
 import { FontFamily } from '../../Constants/Fonts';
 import MapLocationContainer from '../../Components/UISupport/MapLocationContainer';
 import { Safeareacontext } from '../../Constants/SafeAreaContext';
+import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
+import { scalableheight } from '../../Constants/Scalables';
 
 const PostAnAddStep4 = props => {
   const [successModelShow, setSuccessShow] = useState(false);
@@ -43,7 +45,7 @@ const PostAnAddStep4 = props => {
   const [location, setLocation] = useState();
   const [selectedLocation, setSelectedLocation] = useState();
   const [errorMessage, setMessgae] = useState('');
-
+  const ref = useRef();
   const [mapLong, setMapLog] = useState(
     data?.longitude ? data?.longitude : '55.2708',
   );
@@ -73,6 +75,7 @@ const PostAnAddStep4 = props => {
     //   long: mapLong,
     // },
   });
+console.log(formFields);
 
   // console.log(mapCordinates);
   useEffect(() => {
@@ -323,16 +326,63 @@ const PostAnAddStep4 = props => {
             </View>
 
             {/* ADDRESS */}
-            <MapLocationContainer
+            {/* <MapLocationContainer
               valueHave={formFields.address ? true : false}
               formTitle="Address"
               pickValue={
                 formFields.address ? formFields.address : 'Select address'
               }
               onPicker={() => setLocationModal(true)}
-            />
+            /> */}
+             <View style={{ width: '100%', marginTop: 5 }}>
+                     <Text style={{ color: Colors.black, fontFamily: FontFamily.Medium, fontSize: 17, marginBottom: 5 }}>Address</Text>
+         </View>
+            <GooglePlacesAutocomplete
+              ref={ref}
+              placeholder="Search"
+              placeholderTextColor="gray"
+              fetchDetails={true}
+              enablePoweredByContainer={false}
+              styles={{
+                textInput: {
+                  fontFamily: FontFamily.Medium,
+                  fontSize: 16,
+                  color: Colors.black,
+                  borderWidth: 1,
+                  borderColor: '#ccc',
+                  borderRadius: 10,
+                  paddingHorizontal: 10,
+                  marginBottom: 10,
+                  paddingVertical: 12,   // 🟢 add vertical padding
+                  height: scalableheight.seven,
+                },
+                listView: {
+                  backgroundColor: '#fff',
+                },
+              }}
+              query={{
+                key: 'AIzaSyDL1Kk_B0bkRx9FmM3v-3oRn57_MzFyiM8',
+                language: 'en',
 
-            <PickerModel
+              }}
+              onPress={(data, details = null) => {
+                if (!details) return;
+
+                // Set data same as before
+                setFormFields(prev => ({
+                  ...prev,
+                  address: details.formatted_address || data.description,
+                }));
+                setMapLat(details.geometry.location.lat);
+                setMapLog(details.geometry.location.lng);
+                setSelectedLocation(details);
+                setLocationModal(false);
+              }}
+              onFail={error => {
+                console.log('Places API Error:', error);
+              }}
+            />
+            {/* <PickerModel
               cloneModalPopUp={() => setLocationModal(false)}
               modalPopUp={locationModal}
               pickerSearch={text => setLocationSearch(text.trim())}
@@ -350,6 +400,8 @@ const PostAnAddStep4 = props => {
                           ...formFields,
                           address: itemData.item.formatted_address,
                         });
+                        setMapLog(itemData.item.geometry.location.lng)
+                        setMapLat(itemData.item.geometry.location.lat)
                         // setMapCordinates({
                         //   ...mapCordinates,
                         //   latitude: itemData.item.geometry.location.lat,
@@ -363,14 +415,14 @@ const PostAnAddStep4 = props => {
                         borderBottomWidth: 0.5,
                         borderBottomColor: 'lightgray',
                       }}>
-                      <Text style={{ paddingVertical: 10, fontFamily: FontFamily.Medium,color:Colors.black }}>
+                      <Text style={{ paddingVertical: 10, fontFamily: FontFamily.Medium, color: Colors.black }}>
                         {itemData.item.formatted_address}
                       </Text>
                     </TouchableOpacity>
                   );
                 }}
               />
-            </PickerModel>
+            </PickerModel> */}
 
             {/* <MyInput
                             value={formFields.address}
@@ -399,7 +451,7 @@ const PostAnAddStep4 = props => {
                   latitudeDelta: 0.1,
                   longitudeDelta: 0.1,
                 }}>
-                {/* <MapView.Marker.Animated
+                <MapView.Marker.Animated
                   draggable
                   coordinate={{
                     latitude: Number(mapLat),
@@ -438,7 +490,7 @@ const PostAnAddStep4 = props => {
                     source={require('../../Assets/Images/mapMarker.png')}
                     style={{ height: 35, width: 35, resizeMode: 'contain' }}
                   />
-                </MapView.Marker.Animated> */}
+                </MapView.Marker.Animated>
               </MapView>
             </View>
 

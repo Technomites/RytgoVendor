@@ -26,6 +26,7 @@ import SuccessModal from '../../Components/UISupport/SuccessModal';
 import { BaseURL } from '../../Constants/BaseUrl';
 import { FontFamily } from '../../Constants/Fonts';
 import { Safeareacontext } from '../../Constants/SafeAreaContext';
+import { executePayment, initiatePayment } from './FatoorahPaymentMethods';
 const MyPackage = props => {
   const userInfo = useSelector(state => state.auth.userInfo);
 
@@ -117,10 +118,11 @@ const MyPackage = props => {
   };
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: Colors.white,
+    <SafeAreaView style={{
+      flex: 1, backgroundColor: Colors.white,
 
       paddingTop: Safeareacontext.top
-     }}>
+    }}>
       <ScrollView>
         <BackHeader
           onPress={() => props.navigation.goBack()}
@@ -240,41 +242,43 @@ const MyPackage = props => {
 
           <View style={{ width: '90%', marginTop: 5 }}>
             {!proceedLoader ? (
-              <AuthButton
-                onPress={() => {
-                  if (orderId) {
-                    var myHeaders = new Headers();
-                    myHeaders.append(
-                      'Authorization',
-                      `Bearer ${userInfo.access_token}`,
-                    );
+              //  <AuthButton
+              
+              //   onPress={() => {
+              //     if (orderId) {
+              //       var myHeaders = new Headers();
+              //       myHeaders.append(
+              //         'Authorization',
+              //         `Bearer ${userInfo.access_token}`,
+              //       );
 
-                    var requestOptions = {
-                      method: 'GET',
-                      headers: myHeaders,
-                      redirect: 'follow',
-                    };
+              //       var requestOptions = {
+              //         method: 'GET',
+              //         headers: myHeaders,
+              //         redirect: 'follow',
+              //       };
 
-                    fetch(
-                      `${BaseURL}/api/v1/vendor/package/${orderId}/IsAllowed`,
-                      requestOptions,
+              //       fetch(
+              //         `${BaseURL}/api/v1/vendor/package/${orderId}/IsAllowed`,
+              //         requestOptions,
 
-                    )
-                      .then(response => response.json())
-                      .then(result => {
-                        console.log(result)
-                        if (result.status === 'success') {
-                          setPaymentValidData(result);
-                          setValidPopup(true);
-                        }
-                      })
-                      .catch(error => console.log('error', error));
-                  } else {
-                    setPopup(true);
-                  }
-                }}
-                title="PROCEED TO PAYMENT"
-              />
+              //       )
+              //         .then(response => response.json())
+              //         .then(result => {
+              //           console.log(result)
+              //           if (result.status === 'success') {
+              //             setPaymentValidData(result);
+              //             setValidPopup(true);
+              //           }
+              //         })
+              //         .catch(error => console.log('error', error));
+              //     } else {
+              //       setPopup(true);
+              //     }
+              //   }}
+              //   title="PROCEED TO PAYMENT"
+              // />
+             <></>
             ) : (
               <ActivityIndicator size="large" color={Colors.blue} />
             )}
@@ -320,21 +324,45 @@ const MyPackage = props => {
           }
           allowMsg={!paymentValidData?.package?.isAllowed}
           onPayNow={() => {
-            setLoader(true);
-            setValidPopup(false);
-            handlePayment(
-              paymentValidData?.package?.priceToPay,
-              { orderId: orderId, orderNo: '0001' },
-              {
-                email: userInformation.emailAddress.trim(),
-                name: userInformation.name,
-                contact: userInformation.mobileNo,
-                address: 'test123',
-              },
-              props.navigation,
+            // setLoader(true);
+            // setValidPopup(false);
+            // handlePayment(
+            //   paymentValidData?.package?.priceToPay,
+            //   { orderId: orderId, orderNo: '0001' },
+            //   {
+            //     email: userInformation.emailAddress.trim(),
+            //     name: userInformation.name,
+            //     contact: userInformation.mobileNo,
+            //     address: 'test123',
+            //   },
+            //   props.navigation,
 
-              apiAction,
-            );
+            //   apiAction,
+            // );
+
+            initiatePayment(orderdetails).then(data => {
+              executePayment(
+
+                { TotalAmount: paymentValidData?.package?.priceToPay },
+                '',
+                userInformation.mobileNo,
+                userInformation.name,
+                userInformation.emailAddress.trim(),
+                data,
+                restrauntdetails,
+              ).then(status => {
+                console.log('payment status ' + JSON.stringify(status));
+
+                if (status?.InvoiceStatus == 'Paid') {
+
+                } else {
+                  console.log(
+                    'There was an network failure while processing your payment. Please try again later',
+                  )
+                }
+              });
+            });
+
           }}
           onCancel={() => {
             setValidPopup(false);

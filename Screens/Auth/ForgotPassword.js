@@ -37,44 +37,63 @@ const ForgotPassword = props => {
 
   const [message, setMessage] = useState('');
 
-  const submitHandler = async () => {
-    console.log("forgot")
-    if (email !== '') {
-      console.log("forgot2")
-      setLoader(true);
-      var myHeaders = new Headers();
-      myHeaders.append('Content-Type', 'application/json');
+const submitHandler = async () => {
+  console.log("forgot");
 
-      var raw = JSON.stringify({
-        EmailAddress: email,
-      });
 
-      var requestOptions = {
-        method: 'POST',
-        headers: myHeaders,
-        body: raw,
-        redirect: 'follow',
-      };
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-      fetch(`${BaseURL}/api/v1/vendor/forgotpassword`, requestOptions)
-        .then(response => response.json())
-        .then(result => {
-          console.log(result)
-          if (result.status === 'success') {
-            setMessage(result.message);
-            setSuccessModat(true);
-            setLoader(false);
-          } else {
-            setMessage(result.message);
-            setReqModal(true);
-            setLoader(false);
-          }
-        })
-        .catch(error => console.log('error', error));
+  if (email.trim() === '') {
+    setMessage('Please enter your email address.');
+    setReqModal(true);
+    return;
+  }
+
+  if (!emailRegex.test(email)) {
+    setMessage('Please enter a valid email address.');
+    setReqModal(true);
+    return;
+  }
+
+  console.log("forgot2");
+  setLoader(true);
+
+  try {
+    var myHeaders = new Headers();
+    myHeaders.append('Content-Type', 'application/json');
+
+    var raw = JSON.stringify({
+      EmailAddress: email,
+    });
+
+    var requestOptions = {
+      method: 'POST',
+      headers: myHeaders,
+      body: raw,
+      redirect: 'follow',
+    };
+
+    const response = await fetch(`${BaseURL}/api/v1/vendor/forgotpassword`, requestOptions);
+    const result = await response.json();
+
+    console.log(result);
+
+    if (result.status === 'success') {
+      setMessage(result.message);
+      setSuccessModat(true);
     } else {
-      console.log('No');
+      setMessage(result.message);
+      setReqModal(true);
     }
-  };
+  } catch (error) {
+    console.log('error', error);
+    setMessage('Something went wrong. Please try again.');
+    setReqModal(true);
+  } finally {
+    setLoader(false);
+  }
+};
+
   return (
     <ScrollView
       keyboardShouldPersistTaps="always"
@@ -140,11 +159,11 @@ const ForgotPassword = props => {
               {/* Name */}
 
               <View style={{ width: '100%', marginTop: 20 }}>
-                <Text style={{ fontSize: 17, color: 'black', fontFamily: FontFamily.Medium, marginBottom: 5 }}>Password</Text>
+                <Text style={{ fontSize: 17, color: 'black', fontFamily: FontFamily.Medium, marginBottom: 5 }}>Email</Text>
                 <MyFormInputTile
-                  value={""}
+                  value={email}
                   onChangeText={text => setEmail(text)}
-                  placeHolder="Enter emere here"
+                  placeHolder="Enter email here"
 
 
                 />
